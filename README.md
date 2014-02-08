@@ -13,7 +13,7 @@ This list explains which email address to use if one wants to send an email and 
 
 Some carriers have multiple gateways. The SMS gateway refers to Short Message Services which are capable of transmitting plain text messages only. MMS refers to “Multimedia Messaging Services” which are generally capable of carrying messages which include text, pictures and audio.
 
-<table class="wikitable sortable" style="font-size: 90%; text-align: center;">
+<table style="table-layout:fixed">
 <tbody><tr>
 <th rowspan="2">Carrier</th>
 <th rowspan="2">Region</th>
