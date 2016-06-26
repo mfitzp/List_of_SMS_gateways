@@ -562,7 +562,8 @@ Some carriers have multiple gateways. The SMS gateway refers to Short Message Se
 <td><a href="http://en.wikipedia.org/wiki/Cricket_Communications" title="Cricket Communications" class="mw-redirect">Cricket</a></td>
 <td><a href="http://en.wikipedia.org/wiki/United_States" title="United States">United States</a></td>
 <td><i>number</i>@sms.mycricket.com (SMS)
-<p><i>number</i>@mms.mycricket.com (MMS)</p>
+<p><i>number</i>@mms.mycricket.com (MMS)<br>
+<i>number</i>@mms.cricketwireless.net (MMS)</p>
 </td>
 <td><a rel="nofollow" class="external autonumber" href="http://www.mycricket.com/sendtextmessage/">[30]</a></td>
 <td></td>
