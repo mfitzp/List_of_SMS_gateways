@@ -1,275 +1,287 @@
-Region,Carrier,Format,Mail/Web-to-SMS gateway,Notes,SMS-to-Email Gateway,Notes,Reference
-"Alaska,United States",General Communications Inc.,SMS,number@mobile.gci.net,,,,http://www.gci.com/
-"American Samoa,United States",Bluesky Communications,SMS,number@psms.bluesky.as,,,,
-Argentina,CTI Móvil (Now Claro),SMS,number@sms.ctimovil.com.ar,,,,http://www.cti.com.ar/home
-Argentina,Movistar,SMS,number@sms.movistar.net.ar,,,,http://www.movistar.com.ar/??
-Argentina,Nextel,SMS,TwoWay.11number@nextel.net.ar,,,,http://www.nextel.com.ar/
-Argentina,Personal,SMS,number@alertas.personal.com.ar,Call for activation,,,
-Aruba,Setar Mobile email (Aruba),SMS,297domestic-number@mas.aw,,,,http://www.mas.aw/
-Australia,All Australian Mobile Networks,SMS,number@sms.itcompany.com.au,Requires login,,,
-Australia,Amitas Digital,,http://www.amitasdigital.com/,Web only. Requires login,,,
-Australia,Esendex,SMS,number@echoemail.net,,,,http://www.esendex.com.au/
-Australia,SMS Broadcast,SMS,number@send.smsbroadcast.com.au,Requires login,,,http://www.smsbroadcast.com.au/
-Australia,SMS Central,SMS,number@sms.smscentral.com.au,Requires login,,,http://www.smscentral.com.au/
-Australia,SMS Global,SMS,number@email.smsglobal.com,Requires login,,,http://www.smsglobal.com/
-Australia,SMSPUP,SMS,domestic-number@smspup.com,Requires login,,,http://www.smspup.com/
-Australia,T-Mobile (Optus Zoo),SMS,0number@optusmobile.com.au,Requires login,,,
-Australia,Telstra Integrated Messaging (powered by Soprano),SMS,sms@tim.telstra.com,mobile@sms.tim.telstra.com,,,
-Australia,UTBox,SMS,number@sms.utbox.net,Requires login,,,
-Austria,Api4SMS,SMS,number@members.api4sms.net,,,,http://www.api4sms.net/
-Austria,Firmensms,SMS,0043number@subdomain.firmensms.at,Requires login,,,http://www.firmensms.at/
-Austria,T-Mobile,SMS,43676domestic-number@sms.t-mobile.at,,,,http://t-mobile.at/
-Brazil,Claro,SMS,number@clarotorpedo.com.br,Registration not required,,,http://www.claroideias.com.br/portal/site/CIdeias/menuitem.6abfd19566faa7152e742e1022dc10a0/&idlocal=56
-Brazil,Vivo,SMS,number@torpedoemail.com.br,Registration required,,,http://www.torpedoemail.com.br/
-Bulgaria,Globul,SMS,35989number@sms.globul.bg,,,,http://www.globul.bg/
-Bulgaria,Mobiltel,SMS,35988number@sms.mtel.net,,,,https://www.mtel.bg/
-"California,United States",Golden State Cellular,SMS,number@gscsms.com,,,,http://smsc4.iot1.com/
-"California,United States",Greatcall,SMS,number@vtxt.com,,,,http://www.vtxt.com/
-Canada,Aliant,SMS,number@sms.wirefree.informe.ca,,,,
-Canada,Bell Mobility & Solo Mobile,SMS,number@txt.bell.ca or,,,,http://www.txt.bellmobility.ca/bmc/en/
-Canada,Bell Mobility & Solo Mobile,SMS,number@txt.bellmobility.ca,,,,
-Canada,Fido,SMS,number@sms.fido.ca,"as of June 2012, Roger's web server is faster",,,http://www.rogers.com/web/content/wireless-text/send_sms
-Canada,Koodo Mobile,SMS,number@msg.telus.com,,,,http://koodomobile.com/en/on/sendamessage.shtml
-Canada,Lynx Mobility,SMS,number@sms.lynxmobility.com,,,,http://www.lynxmobility.com/login
-Canada,MTS Mobility,SMS,number@text.mtsmobility.com,,,,http://text.mtsmobility.com/
-Canada,PC Telecom,SMS,number@mobiletxt.ca,,,,
-Canada,SaskTel,SMS,number@pcs.sasktelmobility.com,,,,
-Canada,SaskTel,SMS,number@sms.sasktel.com,,,,http://www.sms.sasktel.com/
-Canada,Virgin Mobile,SMS,number@vmobile.ca,,6245,address message,
-Canada,Wind Mobile,SMS,number@txt.windmobile.ca,,4000[25],address text,
-Canada and United States,Telus Mobility,MMS,number@mms.telusmobility.com,,,,
-Canada andUnited States,Telus Mobility,SMS,number@msg.telus.com,,,,http://www.telusmobility.com/en/BC/send_message/
-Canada andUnited Stateslog,Rogers Wireless,SMS,number@sms.rogers.com,Number can start with 1,,"Name (subject) text (Note: Subject must be in plain text, not Q-encoded as described in RFC 2047.)",
-China,China Mobile,SMS,number@139.com,,,,
-"Cincinnati,Ohio,United States",Cincinnati Bell,SMS,number@gocbw.com,,,,
-"Cincinnati,Ohio,United States",Cincinnati Bell,MMS,number@mms.gocbw.com,,,,
-Colombia,Claro,SMS,number@iclaro.com.co,,,,http://www.claro.com.co/
-Colombia,Movistar,SMS,number@movistar.com.co,,,,http://www.movistar.com.co/emocion/
-Colombia,Tigo (Formerly Ola),SMS,number@sms.tigo.com.co,,,,http://www.tigo.com.co/
-Costa Rica,ICE,SMS,number@sms.ice.cr,,1001,address : (subject) text,
-Croatia,T-Mobile,SMS,385domestic-number@sms.t-mobile.hr,,100,address##subject#text,http://www.t-mobile.hr/eng/2/20-20-20-45-00.asp
-Czech Republic,Vodafone,SMS,alias@vodafonemail.cz,Registration required inSamoobsluhy,,,
-Dominica,Digicel (Dominica),SMS,number@digitextdm.com,No area code,,,http://www.digiceldominica.com/en/plans/addons/mobile_e
-Europe,Freebie SMS,SMS,number@smssturen.com,Message in subject line,,,http://sites.google.com/site/emailtosmsgateway/
-Europe,TellusTalk,SMS,number@esms.nu,,,,http://www.tellustalk.com/
-France,Bouygues Telecom (company),MMS,number@mms.bouyguestelecom.fr,,,,
-France,SFR,SMS,number@sfr.fr,,,,
-Germany,E-Plus,SMS,0number@smsmail.eplus.de,,,,
-Germany,O2,SMS,0number@o2online.de,,,,
-Germany,T-Mobile,SMS,number@t-mobile-sms.de,,,,
-Germany,Vodafone,SMS,0number@vodafone-sms.de,,,,
-Guyana,Guyana Telephone &Telegraph,SMS,number@sms.cellinkgy.com,,,,
-"Hawaii,United States",Hawaiian Telcom Wireless,SMS,number@hawaii.sprintpcs.com,,,,
-Hong Kong,Accessyou,MMS,number@messaging.accessyou.com,,,,
-Hong Kong,CSL,MMS,number@mgw.mmsc1.hkcsl.com,,,,http://www.hkcsl.com/
-Iceland,OgVodafone,SMS,number@sms.is,,,,
-Iceland,Síminn,SMS,number@box.is,,,,
-India,Aircel,SMS,number@aircel.co.in,Not working,,,
-India,Airtel,SMS,number@airtelap.com,Not working,,,
-India,Andhra Pradesh AirTel,SMS,91number@airtelap.com,,,,
-India,Andhra Pradesh Idea Cellular,SMS,number@ideacellular.net,,,,http://gleez.com/articles/sms/email-to-mobile-send-sms-freely-india/
-India,B2Bsms B2B SMS,SMS,info@b2bsms.co.in,,,,
-India,B2Bsms B2B SMS,SMS,info@b2bsms.co.in or,,,,http://www.b2bsms.co.in/
-India,Chennai RPG Cellular,SMS,9841number@rpgmail.net,,,,
-India,Chennai Skycell / Airtel,SMS,919840number@airtelchennai.com,,,,
-India,Delhi Airtel,SMS,919810number@airtelmail.com,,,,
-India,Goa Airtel,SMS,919890number@airtelmail.com,,,,
-India,Goa Idea Cellular,SMS,number@ideacellular.net,,,,http://gleez.com/articles/sms/email-to-mobile-send-sms-freely-india/
-India,Gujarat Airtel,SMS,919898number@airtelmail.com,,,,
-India,Gujarat Celforce / Fascel,SMS,9825number@celforce.com,,,,
-India,Gujarat Idea Cellular,SMS,number@ideacellular.net,,,,http://gleez.com/articles/sms/email-to-mobile-send-sms-freely-india/
-India,Haryana Airtel,SMS,919896number@airtelmail.com,,,,
-India,Haryana Escotel,SMS,9812number@escotelmobile.com,,,,
-India,Himachai Pradesh Airtel,SMS,919816number@airtelmail.com,,,,
-India,Karnataka Airtel,SMS,919845number@airtelkk.com,,,,
-India,Kerala Airtel,SMS,919895number@airtelkerala.com,,,,
-India,Kerala Escotel,SMS,9847number@escotelmobile.com,,,,
-India,Kolkata Airtel,SMS,919831number@airtelkol.com,,,,
-India,Madhya Pradesh Airtel,SMS,919893number@airtelmail.com,,,,
-India,Maharashtra Airtel,SMS,919890number@airtelmail.com,,,,
-India,Maharashtra Idea Cellular,SMS,number@ideacellular.net,,,,http://gleez.com/articles/sms/email-to-mobile-send-sms-freely-india/
-India,Mumbai Airtel,SMS,919892number@airtelmail.com,,,,
-India,mVaayoo.com,SMS,http://www.mvaayoo.com/SMSGateway.html,Web only. Requires registration,,,
-India,Punjab Airtel,SMS,919815number@airtelmail.com,,,,
-India,Tamil Nadu Aircel,SMS,9842number@airsms.com,,,,
-India,Tamil Nadu Airtel,SMS,919894number@airtelmobile.com,,,,
-India,Uttar Pradesh West Escotel,SMS,9837number@escotelmobile.com,,,,
-International,All Carrier,SMS,number@email.experttexting.com,Requires registration,,N/A,http://www.ExpertTexting.com
-International,blablaSMS,,http://www.blablasms.com/?pk_campaign=00&pk_kwd=wkp,Web only.,,,
-International,BudgetSMS.net,,http://www.budgetsms.net/,Web only. Requires login,,,
-International,BulkSMS.com,SMS,number@bulksms.net,Requires login (API),,,http://www.bulksms.com/int/w/eapi-sms-gateway.htm
-International,Bulletin.net,SMS,InternationalFormattednumber@bulletinmessenger.net,Requires login,,,http://bulletinmessenger.net/
-International,Globalstar (satellite),SMS,number@msg.globalstarusa.com,,,,http://www.globalstarusa.com/en/services/enhancedservices/g2sms.php
-International,Iridium (satellite),SMS,number@msg.iridium.com,,,,http://messaging.iridium.com/
-International,Thuraya (satellite),,https://sms.thuraya.com/,Web only.,,,
-International,UkraineCalling,,http://www.ukrainecalling.com/smsto.aspx,Web only.,,,
-Iran,Ahra Samaneh Iranian Co. ( ____ ______ ________ ),,,Web only.,,,
-Ireland,Meteor,MMS,number@mms.mymeteor.ie,No longer working,,,
-Ireland,Meteor,SMS,number@sms.mymeteor.ie,Not currently valid,,,
-Israel,Spikko,SMS,number@SpikkoSMS.com,,,,http://www.spikkosms.com/
-Italy,TIM,SMS,0number@timnet.com,,,,
-Italy,Vodafone,SMS,3**number@sms.vodafone.it,,,,
-"Karnataka,India",Airtel,SMS,number@airtelkk.com,Not working,,,
-Mauritius,Emtel,SMS,number@emtelworld.net,,,,http://www.emtel-ltd.com/
-Mexico,Nextel,SMS,number@msgnextel.com.mx,,,,http://www.nextel.com.mx/
-Mexico,Telcel,SMS,number@itelcel.com,,,,http://www.telcel.com/
-Middle East And Africa,Cequens,SMS,www.cequens.com,Web only. Requires signup,,,http://www.cequens.com/
-"Midwest,United States",i wireless (T-Mobile),SMS,number.iws@iwspcs.net,,,,http://www.iwireless.com/features-text_messaging_page.asp
-Moldova,Eventis,,http://eventis.md/index.php?option=com_eventisforms&Itemid=140,Web only.,,,
-Moldova,Moldcell,,http://www.moldcell.md/eng/private/websms,Web only.,,,
-Moldova,Orange Moldova,,https://www.orangetext.md/,Web only.,,,
-Moldova,Unité,,http://unite.md/sms/,Web only.,,,
-Nepal,Ncell(Previously Mero Mobile)[14],SMS,977number@sms.ncell.com.np,Requires registration,,,http://www.ncell.com.np/
-Nepal,Nepal Telecom,,http://websms.ntc.net.np/,Web only.,,,
-Netherlands,Orange,SMS,0number@sms.orange.nl,,,,
-Netherlands,T-Mobile,SMS,31number@gin.nl,,,,
-New Zealand,Telecom New Zealand,SMS,number@etxt.co.nz,,,,http://etxt.co.nz/
-New Zealand,Vodafone,SMS,number@mtxt.co.nz,,,,https://multitxt.vodafone.co.nz/
-Nicaragua,Claro,SMS,number@ideasclaro-ca.com,,,,http://www.claro.com.ni/index.php?option=com_content&task=view&id=101&Itemid=289
-Norway,Sendega,SMS,number@sendega.com,Registration required,,"Content support: subject,body or subject + body. Settings available from website (login required)",http://www.sendega.com/
-Norway,TeletopiaSMS,SMS,number@sms.teletopiasms.no,Registration required,,Content settings available from website,http://www.teletopiasms.no/
-Panama,Más Móvil,SMS,number@cwmovil.com,,,,http://web.masmovil.com.pa/sms_email.htm
-Paraguay,CTI Móvil (Now Claro),,http://www.cti.com.py/,Web only.,,,
-Peru,Claro,,http://mensajes.claro.com.pe/,Web only.,,,
-Poland,Plus,SMS,+48domestic-number@text.plusgsm.pl,,,,http://www.plusgsm.pl/bramkasms/
-Poland,Plus,SMS,+number@text.plusgsm.pl,,,,http://www.plusgsm.pl/bramkasms/
-Poland,Polkomtel,SMS,+48number@text.plusgsm.pl,,,,http://www.plus.pl/indywidualna/uslugi/AktualniKlienci/EmailPrzezSMS/
-Portugal,Vodafone,,http://www.empresas.vodafone.pt/solucoesescritorio/Messaging/smsbymail.htm,Web only. Registration required,,,
-Puerto Rico,Claro,SMS,number@vtexto.com,,,,http://www.claropr.com/
-Russia,Beeline (Russia),SMS,number@sms.beemail.ru,,,,
-Serbia,Telekom Srbija,,http://www.mtsmondo.com/sms/,Web only.,,,
-Singapore,M1,SMS,number@m1.com.sg,,,,
-Singapore,Msg2Send,,http://www.msg2send.com/,Web only,N/A,,
-Singapore,Starhub Enterprise Messaging Solution,SMS,number@starhub-enterprisemessaging.com,Powered by Soprano,,,http://www.starhub.com/business/mobile/enterprisemessaging.html/
-South Africa,MTN,SMS,number@sms.co.za,,,,http://www.mtn.co.za/
-South Africa,Vodacom,SMS,number@voda.co.za,Registration required,,,http://www.vodacom4me.co.za/
-South Koreaand United States,Helio,SMS,number@myhelio.com,,,,
-Spain,Altiria,SMS,info@altiria.com,,,,http://www.altiria.com/envio-sms-masivo/
-Spain,Esendex,SMS,number@esendex.net,,,,http://www.esendex.es/Envio-de-SMS/Mail-SMS
-Spain,Movistar,SMS,0number@movistar.net,,,,
-Spain,Vodafone,SMS,0number@vodafone.es,,,,
-Spain andLatin America,Movistar,SMS,number@movimensaje.com.ar,,,,
-Sri Lanka,Mobitel,SMS,number@sms.mobitel.lk,Mobitel no longer offers email2sms,,,https://www.mobitel.lk/
-Sri Lanka,textit.biz,SMS,http://www.textit.biz/,Web only. http://textit.biz/sendmsg/?ph=xxxx&tx=xxxxx,,,
-Sweden,Tele2,SMS,0number@sms.tele2.se,,,,
-Switzerland,Box Internet ServicesSMS Gateway,MMS,number@mms.boxis.net,SMS API,,,
-Switzerland,Box Internet ServicesSMS Gateway,SMS,number@sms.boxis.net,,,,http://www.boxis.net/en/sms-gateway/
-Switzerland,Orange,,http://www.chrus.ch/mysms,Web only.,,,
-Switzerland,Sunrise Communications,SMS,number@gsm.sunrise.ch,Registration required,,,http://internet.sunrise.ch/handemail/de/handemail.html
-Switzerland,Swisscom,,http://www.xtrazone.ch/,Web only.,,,
-"Texas,United States",Pocket Wireless,SMS,number@sms.pocket.com,,,,
-"Texas,United States",XIT Communications,SMS,number@sms.xit.net,,,,http://www.xit.net/
-United Kingdom,aql,SMS,number@text.aql.com,,44 7766 40 41 42,address text,http://aql.com/site/about_external_email2sms.php
-United Kingdom,Connection Software (CSoft),SMS,number@itsarrived.net,,,,http://www.csoft.co.uk/sms/api/email_to_sms.htm
-United Kingdom,Esendex,SMS,number@echoemail.net,,,,http://www.esendex.co.uk/Services/Email-SMS
-United Kingdom,HSL Mobile,SMS,number@sms.haysystems.com,,,,http://www.hslsms.com/services/emailsms
-United Kingdom,Kapow SMS Gateway,SMS,<number>@kapow.co.uk,,Short code orMSISDN,Received SMS are sent to the user via email or HTTP,http://www.kapow.co.uk/
-United Kingdom,Mediaburst,SMS,number@sms.mediaburst.co.uk,,,,http://www.mediaburst.co.uk/api/doc/email/send-sms/
-United Kingdom,My-Cool-SMS,SMS,number@my-cool-sms.com,,,,http://www.my-cool-sms.com/
-United Kingdom,Orange,SMS,number@orange.net,,,,
-United Kingdom,Oxygen8,SMS,http://www.oxygen8.com/uk/sms-gateway,Web only. Requires login,,,
-United Kingdom,SourceSMS,,http://sourcesms.com/,Web only.,addresstext,,
-United Kingdom,streetunity.org,,http://streetunity.org/sms,Web only,N/A,Reply to SMS received to email the sender,http://streetunity.org/sms
-United Kingdom,TextAnywhere,,http://developer.textapp.net/home/Default.aspx,Web only.,,,
-United Kingdom,TextOver,,http://www.textover.com/emailtosms.html,Web only. Log in to TextOver for details,,,
-United Kingdom,Txtlocal,SMS,number@txtlocal.co.uk,,,,http://www.txtlocal.co.uk/emailtosms/
-United Kingdom,UniMóvil Corporation,SMS,number@viawebsms.com,,,,http://www.viawebsms.com/
-United Kingdom,Virgin Mobile,SMS,number@vxtras.com,Does not appear to work,,,
-United Kingdom,www.fastsms.co.uk,,http://www.fastsms.co.uk/,Web only,N/A,PC / Online Based Text Messaging,http://www.fastsms.co.uk/
-United States,Airfire Mobile,SMS,number@sms.airfiremobile.com,,,,
-United States,Alaska Communications,SMS,number@msg.acsalaska.com,,,,
-United States,Alltel (Allied Wireless),MMS,number@mms.alltelwireless.com,,,,
-United States,Alltel (Allied Wireless),SMS,number@sms.alltelwireless.com,,,,
-United States,Ameritech,SMS,number@paging.acswireless.com,,,,
-United States,Anchor Mobile,,http://www.anchormobile.net/,Web only. Requires login,,,
-United States,Assurance Wireless,SMS,number@vmobl.com,,,,
-United States,AT&T Enterprise Paging,SMS,number@page.att.net,,,,
-United States,AT&T Global Smart Messaging Suite,SMS,number@sms.smartmessagingsuite.com,Powered by Soprano,,,
-United States,AT&T grandfathered customers,SMS,number@mmode.com,"Officially offline since June 10, 2010, underAT&T ticket CM20100610_10186966.",121,address text,
-United States,AT&T Mobility,MMS,domestic-number@mms.att.net,Omit country code in number,,address (subject)text,
-United States,AT&T Mobility,SMS,domestic-number@txt.att.net,Requirees login,121 111[8],address text,
-United States,AT&T Mobility (formerly Cingular),SMS,number@cingularme.com,,,,
-United States,AT&T Mobility (formerly Cingular),MMS,number@mms.att.net,,,,
-United States,AT&T Mobility (formerly Cingular),SMS,number@mobile.mycingular.com,,,,
-United States,AT&T Mobility (formerly Cingular),SMS,number@txt.att.net,,,,
-United States,BellSouth,SMS,number@bellsouth.cl,,,,
-United States,Bluegrass Cellular,MMS,number@mms.myblueworks.com,,,,
-United States,Bluegrass Cellular,SMS,number@sms.bluecell.com,,,,http://bluegrasscellular.com/legal.html
-United States,Boost Mobile,MMS,number@myboostmobile.com,,,,
-United States,Boost Mobile,SMS,number@sms.myboostmobile.com,,,,
-United States,C Spire Wireless,SMS,number@cspire1.com,,,,http://www.cspire.com/
-United States,Cellcom,SMS,number@cellcom.quiktxt.com,,,,
-United States,Cellular South,SMS,number@csouth1.com,,,,
-United States,Chariton Valley Wireless,SMS,number@sms.cvalley.net,,,,
-United States,Chat Mobility,SMS,number@mail.msgsender.com,,,,
-United States,Cingular (Postpaid),SMS,number@cingular.com,Must be logged in prior to visiting link,,,https://www.wireless.att.com/olam/gotoPhone.olamexecute?event=goToSMS&reportActionEvent=A_PHON_SEND_MSG_SUB
-United States,Cingular (Postpaid),SMS,number@mobile.mycingular.com,,,,
-United States,Cleartalk,SMS,number@sms.cleartalk.us,,,,http://www.cleartalk.net/index.html
-United States,Consumer Cellular,SMS,number@cingularme.com,,,Subject and Body are concatenated into the text message,http://www.consumercellular.com/
-United States,Cricket,MMS,number@mms.mycricket.com,,,,
-United States,Cricket,SMS,number@sms.mycricket.com,,,(note: Cricket does not allow SMS messages to be sent to phone. All messages are MMS,http://www.mycricket.com/sendtextmessage/
-United States,DTC,SMS,number@sms.advantagecell.net,,,,
-United States,Edge Wireless,SMS,number@sms.edgewireless.com,,,,
-United States,Element Mobile,SMS,number@SMS.elementmobile.net,,,,
-United States,Esendex,SMS,number@echoemail.net,,,,http://www.esendex.us/Services/Email-SMS
-United States,FreeSMSGateway.com,,http://www.freesmsgateway.com/,Web only.,,,
-United States,i-wireless (Sprint PCS),SMS,number@iwirelesshometext.com,,,,http://support.iwirelesshome.com/faq/questions/47/
-United States,Kajeet,SMS,number@mobile.kajeet.net,,,,
-United States,LongLines,SMS,number@text.longlines.com,,,,http://www.longlines.com/wireless/index.php
-United States,MetroPCS,SMS,number@mymetropcs.com,,,,
-United States,Nextech,SMS,number@sms.ntwls.net,,,,http://www.nex-techwireless.com/
-United States,Page Plus Cellular(Verizon MVNO),MMS,number@mypixmessages.com,,,,
-United States,Page Plus Cellular(Verizon MVNO),SMS,number@vtext.com,,,,http://www.vtext.com/
-United States,Page Plus Cellular(Verizon MVNO),MMS,number@vzwpix.com,,,,http://www.cellguru.net/email_cell.htm
-United States,Pioneer Cellular,SMS,nine-digit-number@zsend.com,,,,
-United States,Qwest Wireless,SMS,number@qwestmp.com,,,,http://www.qwestmp.com/
-United States,Red Pocket Mobile(AT&T MVNO),MMS,number@mms.att.net,,,,
-United States,Red Pocket Mobile(AT&T MVNO),SMS,number@txt.att.net,,,,
-United States,Simple Mobile,SMS,number@smtext.com,,,,http://www.mysimplemobile.com/Support-Center-Contact.aspx
-United States,SMS4Free,,http://smsfree4all.com/free-text-united-states-of-america.php,Web only.,,,
-United States,Solavei,MMS,XXXYYYZZZZ@tmomail.net,Uses T-mobile’s gateway — number is the 10 cell number or can include 1 at the beginning.,500[18],address text,http://support.t-mobile.com/docs/DOC-3309
-United States,South Central Communications,SMS,number@rinasms.com,,,,http://www.socen.com/
-United States,Southernlinc,SMS,number@page.southernlinc.com,,,,
-United States,Sprint,SMS,number@messaging.sprintpcs.com,Requires login,6245,address message,https://mysprint.sprint.com/mysprint/pages/secure/myphoneandmedia/myPhoneAndMediaLandingPage.jsp?selectedRibbon=Messaging&INTNAV=ATG:FT:TXT
-United States,Sprint,SMS,number@pm.sprint.com,,,,
-United States,Straight Talk,SMS,number@messaging.sprintpcs.com,,,,
-United States,Straight Talk,MMS,number@mms.att.net,,,,
-United States,Straight Talk,MMS,number@mmst5.tracfone.com,T-Mobile SIM,,,
-United States,Straight Talk,MMS,number@mypixmessages.com,,,,
-United States,Straight Talk,MMS,number@tmomail.net,T-Mobile SIM - begin 'number' with 1 then phone number,,,
-United States,Straight Talk,MMS,number@tracfone.plspictures.com,,,,
-United States,Straight Talk,SMS,number@txt.att.net,,,,
-United States,Straight Talk,SMS,number@vtext.com,,,,
-United States,Syringa Wireless,SMS,number@rinasms.com,,,,
-United States,T-Mobile,MMS,number@tmomail.net,number can and by default properly begins with “1” (the UScountry code),500[18],address text,http://support.t-mobile.com/docs/DOC-3309
-United States,Teleflip,SMS,number@teleflip.com,,,,
-United States,Ting,SMS,number@message.ting.com,,,,
-United States,Unicel,SMS,number@utext.com,,,,http://www.unicel.com/info2go/utext_send_a_message
-United States,Union Wireless,SMS,number@union-tel.com,,,,http://www.unionwireless.com/
-United States,US Cellular,SMS,number@email.uscc.net,,,,http://www.uscellular.com/sendtextmsg
-United States,US Cellular,MMS,number@mms.uscc.net,,,,
-United States,USA Mobility,SMS,number@usamobility.net,,,,http://www.usamobility.com/
-United States,Verizon Wireless,SMS,number@vtext.com,,6245,address (subject) text,http://www.vtext.com/
-United States,Verizon Wireless,MMS,number@vzwpix.com,,,,
-United States,Verizon Wireless (Alltel),MMS,number@message.Alltel.com,,,,http://message.alltel.com/
-United States,Verizon Wireless (Alltel),MMS,number@mms.alltel.net,,,,
-United States,Verizon Wireless (Alltel),SMS,number@text.wireless.alltel.com,,,,
-United States,Verizon Wireless (Alltel),SMS,number@vtext.com,,,,
-United States,Viaero,MMS,number@mmsviaero.com,,,,
-United States,Viaero,SMS,number@viaerosms.com,,,,http://www.viaero.com/txt/
-United States,Virgin Mobile,SMS,number@vmobl.com,,6245,address message,
-United States,Virgin Mobile,MMS,number@vmpix.com,,,,
-United States,Voyager Mobile,SMS,number@text.voyagermobile.com,,,,
-United States,West Central Wireless,SMS,number@sms.wcc.net,,,,http://www.westcentral.com/
-"United States, Puerto Rico, and the US Virgin Islands",TracFone (prepaid),MMS,direct: number@mmst5.tracfone.com,,,,
-"United States, Puerto Rico, and the US Virgin Islands",TracFone (prepaid),SMS,indirect: number@txt.att.net,,,,
-"United States, Puerto Rico, and the US Virgin Islands",TracFone (prepaid),SMS,number@email.uscc.net,,,,
-"United States, Puerto Rico, and the US Virgin Islands",TracFone (prepaid),SMS,number@message.alltel.com,,,,
-"United States, Puerto Rico, and the US Virgin Islands",TracFone (prepaid),SMS,number@tmomail.net,,,,
-"United States, Puerto Rico, and the US Virgin Islands",TracFone (prepaid),SMS,number@vtext.com,,,,
-Uruguay,CTI Móvil (Now Claro),,http://www.cti.com.uy/,Web only.,,,
-Uruguay,Movistar,SMS,95number@sms.movistar.com.uy,,,,
-"US, Puerto Rico, and the U.S.Virgin Islands",Centennial Wireless,SMS,number@cwemail.com,,,,https://www.centennialwireless.com/sms/sms.php
-Worldwide,Panacea Mobile,SMS,number@api.panaceamobile.com,Requires login,,subject: username password,http://www.panaceamobile.com/sms-gateway
-Worldwide,RoutoMessaging,SMS,number@email2sms.routomessaging.com,,,Subject: Sender ID(Originating Address who is sending the message)Body: the message (Note: plain text emails supported),http://www.routomessaging.com/Email2SMS.pmx
-,C Beyond (All Page Wireless),SMS,number@cbeyond.sprintpcs.com,,,,
+Country,Region,Carrier,Format,Mail/Web-to-SMS gateway,Notes,SMS-to-Email Gateway,Notes,Reference
+Argentina,,CTI Móvil (Now Claro),SMS,number@sms.ctimovil.com.ar,,,,http://www.cti.com.ar/home
+Argentina,,Movistar,SMS,number@sms.movistar.net.ar,,,,http://www.movistar.com.ar/??
+Argentina,,Nextel,SMS,TwoWay.11number@nextel.net.ar,,,,http://www.nextel.com.ar/
+Argentina,,Personal,SMS,number@alertas.personal.com.ar,Call for activation,,,
+Aruba,,Setar Mobile email (Aruba),SMS,297domestic-number@mas.aw,,,,http://www.mas.aw/
+Australia,,All Australian Mobile Networks,SMS,number@sms.itcompany.com.au,Requires login,,,
+Australia,,Amitas Digital,,http://www.amitasdigital.com/,Web only. Requires login,,,
+Australia,,Esendex,SMS,number@echoemail.net,,,,http://www.esendex.com.au/
+Australia,,SMS Broadcast,SMS,number@send.smsbroadcast.com.au,Requires login,,,http://www.smsbroadcast.com.au/
+Australia,,SMS Central,SMS,number@sms.smscentral.com.au,Requires login,,,http://www.smscentral.com.au/
+Australia,,SMS Global,SMS,number@email.smsglobal.com,Requires login,,,http://www.smsglobal.com/
+Australia,,SMSPUP,SMS,domestic-number@smspup.com,Requires login,,,http://www.smspup.com/
+Australia,,T-Mobile (Optus Zoo),SMS,0number@optusmobile.com.au,Requires login,,,
+Australia,,Telstra Integrated Messaging (powered by Soprano),SMS,sms@tim.telstra.com,mobile@sms.tim.telstra.com,,,
+Australia,,UTBox,SMS,number@sms.utbox.net,Requires login,,,
+Austria,,Api4SMS,SMS,number@members.api4sms.net,,,,http://www.api4sms.net/
+Austria,,Firmensms,SMS,0043number@subdomain.firmensms.at,Requires login,,,http://www.firmensms.at/
+Austria,,T-Mobile,SMS,43676domestic-number@sms.t-mobile.at,Reported not working (2016),,,http://t-mobile.at/
+Brazil,,Claro,SMS,number@clarotorpedo.com.br,Registration not required,,,http://www.claroideias.com.br/portal/site/CIdeias/menuitem.6abfd19566faa7152e742e1022dc10a0/&idlocal=56
+Brazil,,Vivo,SMS,number@torpedoemail.com.br,Registration required,,,http://www.torpedoemail.com.br/
+Bulgaria,,Globul,SMS,35989number@sms.globul.bg,,,,http://www.globul.bg/
+Bulgaria,,Mobiltel,SMS,35988number@sms.mtel.net,,,,https://www.mtel.bg/
+Canada,,Aliant,SMS,number@sms.wirefree.informe.ca,,,,
+Canada,,Bell Mobility & Solo Mobile,SMS,number@txt.bell.ca or,,,,http://www.txt.bellmobility.ca/bmc/en/
+Canada,,Bell Mobility & Solo Mobile,SMS,number@txt.bellmobility.ca,,,,
+Canada,,Fido,SMS,number@sms.fido.ca,"as of June 2012, Roger's web server is faster",,,http://www.rogers.com/web/content/wireless-text/send_sms
+Canada,,Koodo Mobile,SMS,number@msg.telus.com,,,,http://koodomobile.com/en/on/sendamessage.shtml
+Canada,,Lynx Mobility,SMS,number@sms.lynxmobility.com,,,,http://www.lynxmobility.com/login
+Canada,,MTS Mobility,SMS,number@text.mtsmobility.com,,,,http://text.mtsmobility.com/
+Canada,,PC Telecom,SMS,number@mobiletxt.ca,,,,
+Canada,,SaskTel,SMS,number@pcs.sasktelmobility.com,Obsolete (2016),,,
+Canada,,SaskTel,SMS,number@sms.sasktel.com,,,,http://www.sms.sasktel.com/
+Canada,,Virgin Mobile,SMS,number@vmobile.ca,,6245,address message,
+Canada,,Westnet,MMS,number@t.westnet.ca,,,,
+Canada,,Wind Mobile,SMS,number@txt.windmobile.ca,,4000[25],address text,
+Canada & United States,,Rogers Wireless,SMS,number@pcs.rogers.com,Updated (2016),,,
+Canada & United States,,Rogers Wireless,SMS,number@sms.rogers.com,Number can start with 1,,"Name (subject) text (Note: Subject must be in plain text, not Q-encoded as described in RFC 2047.)",
+Canada & United States,,Telus Mobility,MMS,number@mms.telusmobility.com,,,,
+Canada & United States,,Telus Mobility,SMS,number@msg.telus.com,,,,http://www.telusmobility.com/en/BC/send_message/
+China,,China Mobile,SMS,number@139.com,,,,
+Colombia,,Claro,SMS,number@iclaro.com.co,,,,http://www.claro.com.co/
+Colombia,,Movistar,SMS,number@movistar.com.co,,,,http://www.movistar.com.co/emocion/
+Colombia,,Tigo (Formerly Ola),SMS,number@sms.tigo.com.co,,,,http://www.tigo.com.co/
+Costa Rica,,ICE,SMS,number@sms.ice.cr,,1001,address : (subject) text,
+Croatia,,T-Mobile,SMS,385domestic-number@sms.t-mobile.hr,,100,address##subject#text,http://www.t-mobile.hr/eng/2/20-20-20-45-00.asp
+Czech Republic,,Vodafone,SMS,alias@vodafonemail.cz,Registration required inSamoobsluhy,,,
+Dominica,,Digicel (Dominica),SMS,number@digitextdm.com,No area code,,,http://www.digiceldominica.com/en/plans/addons/mobile_e
+Europe,,Freebie SMS,SMS,number@smssturen.com,Message in subject line,,,http://sites.google.com/site/emailtosmsgateway/
+Europe,,TellusTalk,SMS,number@esms.nu,,,,http://www.tellustalk.com/
+France,,Bouygues Telecom (company),MMS,number@mms.bouyguestelecom.fr,,,,
+France,,SFR,SMS,number@sfr.fr,,,,
+Germany,,E-Plus,SMS,0number@smsmail.eplus.de,Reported not working (05/2016),,,
+Germany,,O2,SMS,0number@o2online.de,,,,
+Germany,,T-Mobile,SMS,number@t-mobile-sms.de,,,,
+Germany,,Vodafone,SMS,0number@vodafone-sms.de,,,,
+Guyana,,Guyana Telephone &Telegraph,SMS,number@sms.cellinkgy.com,,,,
+Hong Kong,,Accessyou,MMS,number@messaging.accessyou.com,,,,
+Hong Kong,,CSL,MMS,number@mgw.mmsc1.hkcsl.com,,,,http://www.hkcsl.com/
+Iceland,,OgVodafone,SMS,number@sms.is,,,,
+Iceland,,Síminn,SMS,number@box.is,,,,
+India,Andhra Pradesh,Andhra Pradesh AirTel,SMS,91number@airtelap.com,,,,
+India,Andhra Pradesh,Andhra Pradesh Idea Cellular,SMS,number@ideacellular.net,,,,http://gleez.com/articles/sms/email-to-mobile-send-sms-freely-india/
+India,Chennai,Chennai RPG Cellular,SMS,9841number@rpgmail.net,,,,
+India,Chennai,Chennai Skycell / Airtel,SMS,919840number@airtelchennai.com,,,,
+India,Delhi,Delhi Airtel,SMS,919810number@airtelmail.com,,,,
+India,Goa,Goa Airtel,SMS,919890number@airtelmail.com,,,,
+India,Goa,Goa Idea Cellular,SMS,number@ideacellular.net,,,,http://gleez.com/articles/sms/email-to-mobile-send-sms-freely-india/
+India,Gujarat,Gujarat Airtel,SMS,919898number@airtelmail.com,,,,
+India,Gujarat,Gujarat Celforce / Fascel,SMS,9825number@celforce.com,,,,
+India,Gujarat,Gujarat Idea Cellular,SMS,number@ideacellular.net,,,,http://gleez.com/articles/sms/email-to-mobile-send-sms-freely-india/
+India,Haryana,Haryana Airtel,SMS,919896number@airtelmail.com,,,,
+India,Haryana,Haryana Escotel,SMS,9812number@escotelmobile.com,,,,
+India,Himachai Pradesh,Himachai Pradesh Airtel,SMS,919816number@airtelmail.com,,,,
+India,Karnataka,Karnataka Airtel,SMS,919845number@airtelkk.com,,,,
+India,Kerala,Kerala Airtel,SMS,919895number@airtelkerala.com,,,,
+India,Kerala,Kerala Escotel,SMS,9847number@escotelmobile.com,,,,
+India,Kolkata,Kolkata Airtel,SMS,919831number@airtelkol.com,,,,
+India,Madhya Pradesh,Madhya Pradesh Airtel,SMS,919893number@airtelmail.com,,,,
+India,Maharashtra,Maharashtra Airtel,SMS,919890number@airtelmail.com,,,,
+India,Maharashtra,Maharashtra Idea Cellular,SMS,number@ideacellular.net,,,,http://gleez.com/articles/sms/email-to-mobile-send-sms-freely-india/
+India,Mumbai,Mumbai Airtel,SMS,919892number@airtelmail.com,,,,
+India,Punjab,Punjab Airtel,SMS,919815number@airtelmail.com,,,,
+India,Tamil,Tamil Nadu Aircel,SMS,9842number@airsms.com,,,,
+India,Tamil,Tamil Nadu Airtel,SMS,919894number@airtelmobile.com,,,,
+India,Uttar Pradesh,Uttar Pradesh West Escotel,SMS,9837number@escotelmobile.com,,,,
+India,,Aircel,SMS,number@aircel.co.in,Not working,,,
+India,,Airtel,SMS,number@airtelap.com,Not working,,,
+India,,B2Bsms B2B SMS,SMS,info@b2bsms.co.in,,,,
+India,,B2Bsms B2B SMS,SMS,info@b2bsms.co.in or,,,,http://www.b2bsms.co.in/
+India,,mVaayoo.com,SMS,http://www.mvaayoo.com/SMSGateway.html,Web only. Requires registration,,,
+International,,All Carrier,SMS,number@email.experttexting.com,Requires registration,,N/A,http://www.ExpertTexting.com
+International,,blablaSMS,,http://www.blablasms.com/?pk_campaign=00&pk_kwd=wkp,Web only.,,,
+International,,BudgetSMS.net,,http://www.budgetsms.net/,Web only. Requires login,,,
+International,,BulkSMS.com,SMS,number@bulksms.net,Requires login (API),,,http://www.bulksms.com/int/w/eapi-sms-gateway.htm
+International,,Bulletin.net,SMS,InternationalFormattednumber@bulletinmessenger.net,Requires login,,,http://bulletinmessenger.net/
+International,,CM Telecom,,www.smsgateway.to/en,,,,
+International,,FreeSMSGateway.info,,http://FreeSMSGateway.info,Web only.,,,
+International,,Globalstar (satellite),SMS,number@msg.globalstarusa.com,,,,http://www.globalstarusa.com/en/services/enhancedservices/g2sms.php
+International,,Google Fi,SMS,10-digit-Fi-number@msg.fi.google.com,,,,https://productforums.google.com/forum/#!topic/project-fi/_1wI6z2GXQk
+International,,Iridium (satellite),SMS,number@msg.iridium.com,,,,http://messaging.iridium.com/
+International,,Phonovation,,http://www.interactsms.com/,Web only. Bulk messaging.,,,
+International,,Red Oxygen,SMS,http://www.redoxygen.net/web_sms/,API available. Sends as SMS. Replies are received as emails.,,,
+International,,Textmagic.com,,http://textmagic.com,Web only. Bulk messaging.,,,
+International,,Thuraya (satellite),,https://sms.thuraya.com/,Web only.,,,
+International,,UkraineCalling,,http://www.ukrainecalling.com/smsto.aspx,Web only.,,,
+Iran,,Ahra Samaneh Iranian Co. ( ____ ______ ________ ),,,Web only.,,,
+Ireland,,Meteor,MMS,number@mms.mymeteor.ie,No longer working,,,
+Ireland,,Meteor,SMS,number@sms.mymeteor.ie,Not currently valid,,,
+Israel,,Spikko,SMS,number@SpikkoSMS.com,,,,http://www.spikkosms.com/
+Italy,,TIM,SMS,0number@timnet.com,,,,
+Italy,,Vodafone,SMS,3**number@sms.vodafone.it,,,,
+"Karnataka,India",,Airtel,SMS,number@airtelkk.com,Not working,,,
+Mauritius,,Emtel,SMS,number@emtelworld.net,,,,http://www.emtel-ltd.com/
+Mexico,,Nextel,SMS,number@msgnextel.com.mx,,,,http://www.nextel.com.mx/
+Mexico,,Telcel,SMS,number@itelcel.com,,,,http://www.telcel.com/
+Middle East And Africa,,Cequens,SMS,www.cequens.com,Web only. Requires signup,,,http://www.cequens.com/
+Moldova,,Eventis,,http://eventis.md/index.php?option=com_eventisforms&Itemid=140,Web only.,,,
+Moldova,,Moldcell,,http://www.moldcell.md/eng/private/websms,Web only.,,,
+Moldova,,Orange Moldova,,https://www.orangetext.md/,Web only.,,,
+Moldova,,Unité,,http://unite.md/sms/,Web only.,,,
+Nepal,,Ncell(Previously Mero Mobile)[14],SMS,977number@sms.ncell.com.np,Requires registration,,,http://www.ncell.com.np/
+Nepal,,Nepal Telecom,,http://websms.ntc.net.np/,Web only.,,,
+Netherlands,,Orange,SMS,0number@sms.orange.nl,,,,
+Netherlands,,T-Mobile,SMS,31number@gin.nl,,,,
+New Zealand,,Spark New Zealand,SMS,number@etxt.co.nz,Registration required. Charged.,,,http://etxt.co.nz/
+New Zealand,,Vodafone,SMS,number@mtxt.co.nz,Registration required. Charged.,,,https://multitxt.vodafone.co.nz/
+Nicaragua,,Claro,SMS,number@ideasclaro-ca.com,,,,http://www.claro.com.ni/index.php?option=com_content&task=view&id=101&Itemid=289
+Norway,,Sendega,SMS,number@sendega.com,Registration required,,"Content support: subject,body or subject + body. Settings available from website (login required)",http://www.sendega.com/
+Norway,,TeletopiaSMS,SMS,number@sms.teletopiasms.no,Registration required,,Content settings available from website,http://www.teletopiasms.no/
+Panama,,Más Móvil,SMS,number@cwmovil.com,,,,http://web.masmovil.com.pa/sms_email.htm
+Paraguay,,CTI Móvil (Now Claro),,http://www.cti.com.py/,Web only.,,,
+Peru,,Claro,,http://mensajes.claro.com.pe/,Web only.,,,
+Poland,,Plus,SMS,+48domestic-number@text.plusgsm.pl,,,,http://www.plusgsm.pl/bramkasms/
+Poland,,Plus,SMS,+number@text.plusgsm.pl,,,,http://www.plusgsm.pl/bramkasms/
+Poland,,Polkomtel,SMS,+48number@text.plusgsm.pl,,,,http://www.plus.pl/indywidualna/uslugi/AktualniKlienci/EmailPrzezSMS/
+Portugal,,Vodafone,,http://www.empresas.vodafone.pt/solucoesescritorio/Messaging/smsbymail.htm,Web only. Registration required,,,
+Puerto Rico,,Claro,SMS,number@vtexto.com,,,,http://www.claropr.com/
+Russia,,Beeline (Russia),SMS,number@sms.beemail.ru,,,,
+Serbia,,Telekom Srbija,,http://www.mtsmondo.com/sms/,Web only.,,,
+Singapore,,M1,SMS,number@m1.com.sg,,,,
+Singapore,,Msg2Send,,http://www.msg2send.com/,Web only,N/A,,
+Singapore,,Starhub Enterprise Messaging Solution,SMS,number@starhub-enterprisemessaging.com,Powered by Soprano,,,http://www.starhub.com/business/mobile/enterprisemessaging.html/
+South Africa,,MTN,SMS,number@sms.co.za,,,,http://www.mtn.co.za/
+South Africa,,Vodacom,SMS,number@voda.co.za,Registration required,,,http://www.vodacom4me.co.za/
+South Korea and United States,,Helio,SMS,number@myhelio.com,,,,
+Spain,,Altiria,SMS,info@altiria.com,,,,http://www.altiria.com/envio-sms-masivo/
+Spain,,Esendex,SMS,number@esendex.net,,,,http://www.esendex.es/Envio-de-SMS/Mail-SMS
+Spain,,Movistar,SMS,0number@movistar.net,,,,
+Spain,,Vodafone,SMS,0number@vodafone.es,,,,
+Spain and Latin America,,Movistar,SMS,number@movimensaje.com.ar,,,,
+Sri Lanka,,Mobitel,SMS,number@sms.mobitel.lk,Mobitel no longer offers email2sms,,,https://www.mobitel.lk/
+Sri Lanka,,textit.biz,SMS,http://www.textit.biz/,Web only. http://textit.biz/sendmsg/?ph=xxxx&tx=xxxxx,,,
+Sweden,,Tele2,SMS,0number@sms.tele2.se,,,,
+Switzerland,,Box Internet ServicesSMS Gateway,MMS,number@mms.boxis.net,SMS API,,,
+Switzerland,,Box Internet ServicesSMS Gateway,SMS,number@sms.boxis.net,,,,http://www.boxis.net/en/sms-gateway/
+Switzerland,,Orange,,http://www.chrus.ch/mysms,Web only.,,,
+Switzerland,,Sunrise Communications,SMS,number@gsm.sunrise.ch,Registration required,,,http://internet.sunrise.ch/handemail/de/handemail.html
+Switzerland,,Swisscom,,http://www.xtrazone.ch/,Web only.,,,
+United Kingdom,,aql,SMS,number@text.aql.com,,44 7766 40 41 42,address text,http://aql.com/site/about_external_email2sms.php
+United Kingdom,,CM Telecom,SMS,number@mail-sms.com,,,,
+United Kingdom,,CM Telecom,SMS,https://www.cmtelecom.com/products/messaging/sms,Web only.,,,
+United Kingdom,,Connection Software (CSoft),SMS,number@itsarrived.net,,,,http://www.csoft.co.uk/sms/api/email_to_sms.htm
+United Kingdom,,Esendex,SMS,number@echoemail.net,,,,http://www.esendex.co.uk/Services/Email-SMS
+United Kingdom,,HSL Mobile,SMS,number@sms.haysystems.com,,,,http://www.hslsms.com/services/emailsms
+United Kingdom,,Kapow SMS Gateway,SMS,<number>@kapow.co.uk,,Short code orMSISDN,Received SMS are sent to the user via email or HTTP,http://www.kapow.co.uk/
+United Kingdom,,Mediaburst,SMS,number@sms.mediaburst.co.uk,,,,http://www.mediaburst.co.uk/api/doc/email/send-sms/
+United Kingdom,,My-Cool-SMS,SMS,number@my-cool-sms.com,,,,http://www.my-cool-sms.com/
+United Kingdom,,Orange,SMS,number@orange.net,,,,
+United Kingdom,,Oxygen8,SMS,http://www.oxygen8.com/uk/sms-gateway,Web only. Requires login,,,
+United Kingdom,,SourceSMS,,http://sourcesms.com/,Web only.,addresstext,,
+United Kingdom,,streetunity.org,,http://streetunity.org/sms,Web only,N/A,Reply to SMS received to email the sender,http://streetunity.org/sms
+United Kingdom,,TextAnywhere,,http://developer.textapp.net/home/Default.aspx,Web only.,,,
+United Kingdom,,TextOver,,http://www.textover.com/emailtosms.html,Web only. Log in to TextOver for details,,,
+United Kingdom,,Txtlocal,SMS,number@txtlocal.co.uk,,,,http://www.txtlocal.co.uk/emailtosms/
+United Kingdom,,UniMóvil Corporation,SMS,number@viawebsms.com,,,,http://www.viawebsms.com/
+United Kingdom,,Virgin Mobile,SMS,number@vxtras.com,Does not appear to work,,,
+United Kingdom,,www.fastsms.co.uk,,http://www.fastsms.co.uk/,Web only,N/A,PC / Online Based Text Messaging,http://www.fastsms.co.uk/
+United States,Alaska,General Communications Inc.,SMS,number@mobile.gci.net,,,,http://www.gci.com/
+United States,American Samoa,Bluesky Communications,SMS,number@psms.bluesky.as,,,,
+United States,California,Golden State Cellular,SMS,number@gscsms.com,,,,http://smsc4.iot1.com/
+United States,California,Greatcall,SMS,number@vtxt.com,,,,http://www.vtxt.com/
+United States,Cincinnati & Ohio,Cincinnati Bell,SMS,number@gocbw.com,,,,
+United States,Hawaii,Hawaiian Telcom Wireless,SMS,number@hawaii.sprintpcs.com,,,,
+United States,Midwest,i wireless (T-Mobile),SMS,number.iws@iwspcs.net,,,,http://www.iwireless.com/features-text_messaging_page.asp
+United States,Texas,Pocket Wireless,SMS,number@sms.pocket.com,,,,
+United States,Texas,XIT Communications,SMS,number@sms.xit.net,,,,http://www.xit.net/
+United States,Virginia,nTelos,,number@pcs.ntelos.com,,,,
+United States,,Airfire Mobile,SMS,number@sms.airfiremobile.com,,,,
+United States,,Alaska Communications,SMS,number@msg.acsalaska.com,,,,
+United States,,Alltel (Allied Wireless),MMS,number@mms.alltelwireless.com,,,,
+United States,,Alltel (Allied Wireless),SMS,number@sms.alltelwireless.com,,,,
+United States,,Ameritech,SMS,number@paging.acswireless.com,,,,
+United States,,Anchor Mobile,,http://www.anchormobile.net/,Web only. Requires login,,,
+United States,,Assurance Wireless,SMS,number@vmobl.com,,,,
+United States,,AT&T Enterprise Paging,SMS,number@page.att.net,,,,
+United States,,AT&T Global Smart Messaging Suite,SMS,number@sms.smartmessagingsuite.com,Powered by Soprano,,,
+United States,,AT&T grandfathered customers,SMS,number@mmode.com,"Officially offline since June 10, 2010, underAT&T ticket CM20100610_10186966.",121,address text,
+United States,,AT&T Mobility,MMS,domestic-number@mms.att.net,Omit country code in number,,address (subject)text,
+United States,,AT&T Mobility,SMS,domestic-number@txt.att.net,Requirees login,121 111[8],address text,
+United States,,AT&T Mobility (formerly Cingular),SMS,number@cingularme.com,,,,
+United States,,AT&T Mobility (formerly Cingular),MMS,number@mms.att.net,,,,
+United States,,AT&T Mobility (formerly Cingular),SMS,number@mobile.mycingular.com,,,,
+United States,,AT&T Mobility (formerly Cingular),SMS,number@txt.att.net,,,,
+United States,,BellSouth,SMS,number@bellsouth.cl,,,,
+United States,,Bluegrass Cellular,MMS,number@mms.myblueworks.com,,,,
+United States,,Bluegrass Cellular,SMS,number@sms.bluecell.com,,,,http://bluegrasscellular.com/legal.html
+United States,,Boost Mobile,MMS,number@myboostmobile.com,,,,
+United States,,Boost Mobile,SMS,number@sms.myboostmobile.com,,,,
+United States,,C Beyond (All Page Wireless),SMS,number@cbeyond.sprintpcs.com,,,,
+United States,,C Spire Wireless,SMS,number@cspire1.com,,,,http://www.cspire.com/
+United States,,Cellcom,SMS,number@cellcom.quiktxt.com,,,,
+United States,,Cellular South,SMS,number@csouth1.com,,,,
+United States,,Chariton Valley Wireless,SMS,number@sms.cvalley.net,,,,
+United States,,Chat Mobility,SMS,number@mail.msgsender.com,,,,
+United States,,Cincinnati Bell,MMS,number@mms.gocbw.com,,,,
+United States,,Cingular (Postpaid),SMS,number@cingular.com,Must be logged in prior to visiting link,,,https://www.wireless.att.com/olam/gotoPhone.olamexecute?event=goToSMS&reportActionEvent=A_PHON_SEND_MSG_SUB
+United States,,Cingular (Postpaid),SMS,number@mobile.mycingular.com,,,,
+United States,,Cleartalk,SMS,number@sms.cleartalk.us,,,,http://www.cleartalk.net/index.html
+United States,,Consumer Cellular,SMS,number@cingularme.com,Reported not working (2016),,Subject and Body are concatenated into the text message,http://www.consumercellular.com/
+United States,,Cricket,MMS,number@mms.mycricket.com,Reported not working (2015),,,
+United States,,Cricket,SMS,number@sms.mycricket.com,Reported not working (2015),,(note: Cricket does not allow SMS messages to be sent to phone. All messages are MMS,http://www.mycricket.com/sendtextmessage/
+United States,,Cricket,SMS,number@sms.cricketwireless.net,Reported not working (2016),,,
+United States,,Cricket,MMS,number@mms.cricketwireless.net,,,,
+United States,,DTC,SMS,number@sms.advantagecell.net,,,,
+United States,,Edge Wireless,SMS,number@sms.edgewireless.com,,,,
+United States,,Element Mobile,SMS,number@SMS.elementmobile.net,,,,
+United States,,Esendex,SMS,number@echoemail.net,,,,http://www.esendex.us/Services/Email-SMS
+United States,,i-wireless (Sprint PCS),SMS,number@iwirelesshometext.com,,,,http://support.iwirelesshome.com/faq/questions/47/
+United States,,Kajeet,SMS,number@mobile.kajeet.net,,,,
+United States,,LongLines,SMS,number@text.longlines.com,,,,http://www.longlines.com/wireless/index.php
+United States,,MetroPCS,SMS,number@mymetropcs.com,,,,
+United States,,Nextech,SMS,number@sms.ntwls.net,,,,http://www.nex-techwireless.com/
+United States,,Page Plus Cellular(Verizon MVNO),MMS,number@mypixmessages.com,,,,
+United States,,Page Plus Cellular(Verizon MVNO),SMS,number@vtext.com,,,,http://www.vtext.com/
+United States,,Page Plus Cellular(Verizon MVNO),MMS,number@vzwpix.com,,,,http://www.cellguru.net/email_cell.htm
+United States,,Pioneer Cellular,SMS,nine-digit-number@zsend.com,,,,
+United States,,Qwest Wireless,SMS,number@qwestmp.com,,,,http://www.qwestmp.com/
+United States,,Red Pocket Mobile(AT&T MVNO),MMS,number@mms.att.net,,,,
+United States,,Red Pocket Mobile(AT&T MVNO),SMS,number@txt.att.net,,,,
+United States,,Simple Mobile,SMS,number@smtext.com,,,,http://www.mysimplemobile.com/Support-Center-Contact.aspx
+United States,,SMS4Free,,http://smsfree4all.com/free-text-united-states-of-america.php,Web only.,,,
+United States,,Solavei,MMS,XXXYYYZZZZ@tmomail.net,Uses T-mobile’s gateway — number is the 10 cell number or can include 1 at the beginning.,500[18],address text,http://support.t-mobile.com/docs/DOC-3309
+United States,,South Central Communications,SMS,number@rinasms.com,,,,http://www.socen.com/
+United States,,Southernlinc,SMS,number@page.southernlinc.com,,,,
+United States,,Sprint,SMS,number@messaging.sprintpcs.com,Requires login,6245,address message,https://mysprint.sprint.com/mysprint/pages/secure/myphoneandmedia/myPhoneAndMediaLandingPage.jsp?selectedRibbon=Messaging&INTNAV=ATG:FT:TXT
+United States,,Sprint,SMS,number@pm.sprint.com,,,,
+United States,,Straight Talk,SMS,number@messaging.sprintpcs.com,,,,
+United States,,Straight Talk,MMS,number@mms.att.net,,,,
+United States,,Straight Talk,MMS,number@mmst5.tracfone.com,T-Mobile SIM,,,
+United States,,Straight Talk,MMS,number@mypixmessages.com,,,,
+United States,,Straight Talk,MMS,number@tmomail.net,T-Mobile SIM - begin 'number' with 1 then phone number,,,
+United States,,Straight Talk,MMS,number@tracfone.plspictures.com,,,,
+United States,,Straight Talk,SMS,number@txt.att.net,,,,
+United States,,Straight Talk,SMS,number@vtext.com,,,,
+United States,,Syringa Wireless,SMS,number@rinasms.com,,,,
+United States,,T-Mobile,MMS,number@tmomail.net,number can and by default properly begins with “1” (the UScountry code),500[18],address text,http://support.t-mobile.com/docs/DOC-3309
+United States,,Teleflip,SMS,number@teleflip.com,,,,
+United States,,Ting,SMS,number@message.ting.com,,,,
+United States,,Unicel,SMS,number@utext.com,,,,http://www.unicel.com/info2go/utext_send_a_message
+United States,,Union Wireless,SMS,number@union-tel.com,,,,http://www.unionwireless.com/
+United States,,US Cellular,SMS,number@email.uscc.net,,,,http://www.uscellular.com/sendtextmsg
+United States,,US Cellular,MMS,number@mms.uscc.net,,,,
+United States,,USA Mobility,SMS,number@usamobility.net,,,,http://www.usamobility.com/
+United States,,Verizon Wireless,SMS,number@vtext.com,,6245,address (subject) text,http://www.vtext.com/
+United States,,Verizon Wireless,MMS,number@vzwpix.com,,,,
+United States,,Verizon Wireless (Alltel),MMS,number@message.Alltel.com,,,,http://message.alltel.com/
+United States,,Verizon Wireless (Alltel),MMS,number@mms.alltel.net,,,,
+United States,,Verizon Wireless (Alltel),SMS,number@text.wireless.alltel.com,,,,
+United States,,Verizon Wireless (Alltel),SMS,number@vtext.com,,,,
+United States,,Viaero,MMS,number@mmsviaero.com,,,,
+United States,,Viaero,SMS,number@viaerosms.com,,,,http://www.viaero.com/txt/
+United States,,Virgin Mobile,SMS,number@vmobl.com,,6245,address message,
+United States,,Virgin Mobile,MMS,number@vmpix.com,,,,
+United States,,Voyager Mobile,SMS,number@text.voyagermobile.com,,,,
+United States,,West Central Wireless,SMS,number@sms.wcc.net,,,,http://www.westcentral.com/
+"United States, Puerto Rico, and the US Virgin Islands",,Centennial Wireless,SMS,number@cwemail.com,,,,https://www.centennialwireless.com/sms/sms.php
+"United States, Puerto Rico, and the US Virgin Islands",,TracFone (prepaid),MMS,direct: number@mmst5.tracfone.com,,,,
+"United States, Puerto Rico, and the US Virgin Islands",,TracFone (prepaid),SMS,indirect: number@txt.att.net,,,,
+"United States, Puerto Rico, and the US Virgin Islands",,TracFone (prepaid),SMS,number@email.uscc.net,,,,
+"United States, Puerto Rico, and the US Virgin Islands",,TracFone (prepaid),SMS,number@message.alltel.com,,,,
+"United States, Puerto Rico, and the US Virgin Islands",,TracFone (prepaid),SMS,number@tmomail.net,,,,
+"United States, Puerto Rico, and the US Virgin Islands",,TracFone (prepaid),SMS,number@vtext.com,,,,
+Uruguay,,CTI Móvil (Now Claro),,http://www.cti.com.uy/,Web only.,,,
+Uruguay,,Movistar,SMS,95number@sms.movistar.com.uy,,,,
+Worldwide,,Panacea Mobile,SMS,number@api.panaceamobile.com,Requires login,,subject: username password,http://www.panaceamobile.com/sms-gateway
+Worldwide,,RoutoMessaging,SMS,number@email2sms.routomessaging.com,,,Subject: Sender ID(Originating Address who is sending the message)Body: the message (Note: plain text emails supported),http://www.routomessaging.com/Email2SMS.pmx
