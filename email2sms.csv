@@ -28,14 +28,14 @@ Europe,Germany,,O2,0number@o2online.de,,,,,,,,
 Europe,Germany,,T-Mobile,number@t-mobile-sms.de,,,,,,,,
 Europe,Germany,,Vodafone,0number@vodafone-sms.de,,,,,,,,
 Europe,Iceland,,OgVodafone,number@sms.is,,,,,,,,
-Europe,Iceland,,SÌ_minn,number@box.is,,,,,,,,
+Europe,Iceland,,S•À__minn,number@box.is,,,,,,,,
 Europe,Ireland,,Meteor,number@sms.mymeteor.ie,number@mms.mymeteor.ie,,,,,,,
 Europe,Italy,,TIM,0number@timnet.com,,,,,,,,
 Europe,Italy,,Vodafone,3**number@sms.vodafone.it,,,,,,,,
 Europe,Moldova,,Eventis,,,http://eventis.md/index.php?option=com_eventisforms&Itemid=140,,,,,,
 Europe,Moldova,,Moldcell,,,http://www.moldcell.md/eng/private/websms,,,,,,
 Europe,Moldova,,Orange Moldova,,,https://www.orangetext.md/,,,,,,
-Europe,Moldova,,UnitÌ©,,,http://unite.md/sms/,,,,,,
+Europe,Moldova,,Unití©,,,http://unite.md/sms/,,,,,,
 Europe,Netherlands,,Orange,0number@sms.orange.nl,,,,,,,,
 Europe,Netherlands,,T-Mobile,31number@gin.nl,,,,,,,,
 Europe,Norway,,Sendega,number@sendega.com,,,Y,,,,"Content support: subject,body or subject + body. Settings available from website (login required)",http://www.sendega.com/
@@ -66,12 +66,10 @@ Europe,United Kingdom,,Mediaburst,number@sms.mediaburst.co.uk,,,,,,,,http://www.
 Europe,United Kingdom,,My-Cool-SMS,number@my-cool-sms.com,,,,,,,,http://www.my-cool-sms.com/
 Europe,United Kingdom,,Orange,number@orange.net,,,,,,,,
 Europe,United Kingdom,,Oxygen8,,,http://www.oxygen8.com/uk/sms-gateway,Y,,,,,
-Europe,United Kingdom,,SourceSMS,,,http://sourcesms.com/,,,,,,
-Europe,United Kingdom,,streetunity.org,,,http://streetunity.org/sms,,,,,Reply to SMS received to email the sender,http://streetunity.org/sms
 Europe,United Kingdom,,TextAnywhere,,,http://developer.textapp.net/home/Default.aspx,,,,,,
 Europe,United Kingdom,,TextOver,,,http://www.textover.com/emailtosms.html,,,Log in to TextOver for details,,,
 Europe,United Kingdom,,Txtlocal,number@txtlocal.co.uk,,,,,,,,http://www.txtlocal.co.uk/emailtosms/
-Europe,United Kingdom,,UniMÌ_vil Corporation,number@viawebsms.com,,,,,,,,http://www.viawebsms.com/
+Europe,United Kingdom,,Univil Corporation,number@viawebsms.com,,,,,,,,http://www.viawebsms.com/
 Europe,United Kingdom,,Virgin Mobile,number@vxtras.com,,,,X,Does not appear to work,,,
 Europe,United Kingdom,,www.fastsms.co.uk,,,http://www.fastsms.co.uk/,,,Web only,,PC / Online Based Text Messaging,http://www.fastsms.co.uk/
 Europe,,,Freebie SMS,number@smssturen.com,,,,X,,,Message in subject line,http://sites.google.com/site/emailtosmsgateway/
@@ -125,11 +123,11 @@ North America,Canada,,Wind Mobile,number@txt.windmobile.ca,,,,,,4000,address tex
 North America,Canada,,Rogers Wireless,number@pcs.rogers.com,,,,,Updated (2016),,,
 North America,Canada,,Rogers Wireless,number@sms.rogers.com,,,,,Number can start with 1,,"Name (subject) text (Note: Subject must be in plain text, not Q-encoded as described in RFC 2047.)",
 North America,Canada,,Telus Mobility,number@msg.telus.com,number@mms.telusmobility.com,http://www.telusmobility.com/en/BC/send_message/,,,,,,
-North America,Costa Rica,,ICE,number@sms.ice.cr,,,,,,1001,address : (subject) text,
+North America,Costa Rica,,ICE,number@sms.ice.cr,,,,X,,1001,address : (subject) text,
 North America,Mexico,,Nextel,number@msgnextel.com.mx,,,,,,,,http://www.nextel.com.mx/
 North America,Mexico,,Telcel,number@itelcel.com,,,,,,,,http://www.telcel.com/
 North America,Nicaragua,,Claro,number@ideasclaro-ca.com,,,,,,,,http://www.claro.com.ni/index.php?option=com_content&task=view&id=101&Itemid=289
-North America,Panama,,MÌÁs MÌ_vil,number@cwmovil.com,,,,,,,,http://web.masmovil.com.pa/sms_email.htm
+North America,Panama,,M•À_•À_s M•À__vil,number@cwmovil.com,,,,,,,,http://web.masmovil.com.pa/sms_email.htm
 North America,Puerto Rico,,Claro,number@vtexto.com,,,,,,,,http://www.claropr.com/
 North America,United States,Alaska,General Communications Inc.,number@mobile.gci.net,,,,,,,,http://www.gci.com/
 North America,United States,American Samoa,Bluesky Communications,number@psms.bluesky.as,,,,,,,,
@@ -182,13 +180,13 @@ North America,United States,,Kajeet,number@mobile.kajeet.net,,,,,,,,
 North America,United States,,LongLines,number@text.longlines.com,,,,,,,,http://www.longlines.com/wireless/index.php
 North America,United States,,MetroPCS,number@mymetropcs.com,,,,,,,,
 North America,United States,,Nextech,number@sms.ntwls.net,,,,,,,,http://www.nex-techwireless.com/
-North America,United States,,Page Plus Cellular(Verizon MVNO),number@vtext.com,number@mypixmessages.com  number@vzwpix.com,,,,,,,http://www.vtext.com/
+North America,United States,,Page Plus Cellular(Verizon MVNO),number@vtext.com,number@mypixmessages.com,,,,Previously number@vzwpix.com for MMS but reported no longer working (2017),,,http://www.vtext.com/
 North America,United States,,Pioneer Cellular,nine-digit-number@zsend.com,,,,,,,,
 North America,United States,,Qwest Wireless,number@qwestmp.com,,,,,,,,http://www.qwestmp.com/
 North America,United States,,Red Pocket Mobile(AT&T MVNO),number@txt.att.net,number@mms.att.net,,,,,,,
 North America,United States,,Simple Mobile,number@smtext.com,,,,,,,,http://www.mysimplemobile.com/Support-Center-Contact.aspx
 North America,United States,,SMS4Free,,,http://smsfree4all.com/free-text-united-states-of-america.php,,,,,,
-North America,United States,,Solavei,,XXXYYYZZZZ@tmomail.net,,,,Uses T-mobile‰Ûªs gateway ‰ÛÓ number is the 10 cell number or can include 1 at the beginning.,500,address text,http://support.t-mobile.com/docs/DOC-3309
+North America,United States,,Solavei,,XXXYYYZZZZ@tmomail.net,,,,Uses T-mobile's gateway. Number is the 10 cell number or can include 1 at the beginning.,500,address text,http://support.t-mobile.com/docs/DOC-3309
 North America,United States,,South Central Communications,number@rinasms.com,,,,,,,,http://www.socen.com/
 North America,United States,,Southernlinc,number@page.southernlinc.com,,,,,,,,
 North America,United States,,Sprint,number@messaging.sprintpcs.com,,,Y,,,6245,address message,https://mysprint.sprint.com/mysprint/pages/secure/myphoneandmedia/myPhoneAndMediaLandingPage.jsp?selectedRibbon=Messaging&INTNAV=ATG:FT:TXT
@@ -208,7 +206,7 @@ North America,United States,,Unicel,number@utext.com,,,,,,,,http://www.unicel.co
 North America,United States,,Union Wireless,number@union-tel.com,,,,,,,,http://www.unionwireless.com/
 North America,United States,,US Cellular,number@email.uscc.net,number@mms.uscc.net,,,,,,,http://www.uscellular.com/sendtextmsg
 North America,United States,,USA Mobility,number@usamobility.net,,,,,,,,http://www.usamobility.com/
-North America,United States,,Verizon Wireless,number@vtext.com,number@vzwpix.com,,,,,6245,address (subject) text,http://www.vtext.com/
+North America,United States,,Verizon Wireless,number@vtext.com,,,,,Previously number@vzwpix.com for MMS but reported no longer working (2017),6245,address (subject) text,http://www.vtext.com/
 North America,United States,,Verizon Wireless (Alltel),number@text.wireless.alltel.com,number@message.Alltel.com,,,,,,,http://message.alltel.com/
 North America,United States,,Verizon Wireless (Alltel),number@text.wireless.alltel.com,number@mms.alltel.net,,,,,,,
 North America,United States,,Verizon Wireless (Alltel),number@vtext.com,,,,,,,,
@@ -236,7 +234,7 @@ Oceania,Australia,,UTBox,number@sms.utbox.net,,,Y,,,,,
 Oceania,New Zealand,,Spark New Zealand,number@etxt.co.nz,,,Y,,Charged.,,,http://etxt.co.nz/
 Oceania,New Zealand,,Vodafone,number@mtxt.co.nz,,,Y,,Charged.,,,https://multitxt.vodafone.co.nz/
 Europe,Russia,,Beeline (Russia),number@sms.beemail.ru,,,,,,,,
-South America,Argentina,,CTI MÌ_vil (Now Claro),number@sms.ctimovil.com.ar,,,,,,,,http://www.cti.com.ar/home
+South America,Argentina,,CTI (Now Claro),number@sms.ctimovil.com.ar,,,,,,,,http://www.cti.com.ar/home
 South America,Argentina,,Movistar,number@sms.movistar.net.ar,,,,,,,,http://www.movistar.com.ar/??
 South America,Argentina,,Nextel,TwoWay.11number@nextel.net.ar,,,,,,,,http://www.nextel.com.ar/
 South America,Argentina,,Personal,number@alertas.personal.com.ar,,,,,Call provider for activation,,,
@@ -248,9 +246,9 @@ South America,Colombia,,Movistar,number@movistar.com.co,,,,,,,,http://www.movist
 South America,Colombia,,Tigo (Formerly Ola),number@sms.tigo.com.co,,,,,,,,http://www.tigo.com.co/
 South America,Dominica,,Digicel (Dominica),number@digitextdm.com,,,,,No area code,,,http://www.digiceldominica.com/en/plans/addons/mobile_e
 South America,Guyana,,Guyana Telephone &Telegraph,number@sms.cellinkgy.com,,,,,,,,
-South America,Paraguay,,CTI MÌ_vil (Now Claro),,,http://www.cti.com.py/,,,,,,
+South America,Paraguay,,CTI (Now Claro),,,http://www.cti.com.py/,,,,,,
 South America,Peru,,Claro,,,http://mensajes.claro.com.pe/,,,,,,
-South America,Uruguay,,CTI MÌ_vil (Now Claro),,,http://www.cti.com.uy/,,,,,,
+South America,Uruguay,,CTI (Now Claro),,,http://www.cti.com.uy/,,,,,,
 South America,Uruguay,,Movistar,95number@sms.movistar.com.uy,,,,,,,,
 South America,,,Movistar,number@movimensaje.com.ar,,,,,,,,
 Worldwide,,,TellusTalk,number@esms.nu,,,,,,,,http://www.tellustalk.com/
