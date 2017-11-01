@@ -169,6 +169,7 @@ North America,United States,,Cingular (Postpaid),number@cingular.com,,,Y,,Must b
 North America,United States,,Cingular (Postpaid),number@mobile.mycingular.com,,,,,,,,
 North America,United States,,Cleartalk,number@sms.cleartalk.us,,,,,,,,http://www.cleartalk.net/index.html
 North America,United States,,Consumer Cellular,number@cingularme.com,,,,,Reported not working (2016); Reported working (2017),,Subject and Body are concatenated into the text message,http://www.consumercellular.com/
+North America,United States,,Consumer Cellular,number@mailmymobile.net,,,,,"Alternate address, seen as return address when texting to email (2017)",,,http://www.consumercellular.com/
 North America,United States,,Cricket,number@sms.mycricket.com,number@mms.mycricket.com,,,X,Reported not working (2015),,(note: Cricket does not allow SMS messages to be sent to phone. All messages are MMS,http://www.mycricket.com/sendtextmessage/
 North America,United States,,Cricket,number@sms.cricketwireless.net,number@mms.cricketwireless.net,,,X,Reported not working (2016),,,
 North America,United States,,DTC,number@sms.advantagecell.net,,,,,,,,
@@ -260,7 +261,7 @@ Worldwide,,,Bulletin.net,InternationalFormattednumber@bulletinmessenger.net,,,Y,
 Worldwide,,,CM Telecom,www.smsgateway.to/en,,,,,,,,
 Worldwide,,,FreeSMSGateway.info,,,http://FreeSMSGateway.info,,,,,,
 Worldwide,,,Globalstar (satellite),number@msg.globalstarusa.com,,,,,,,,http://www.globalstarusa.com/en/services/enhancedservices/g2sms.php
-Worldwide,,,Google Fi,10-digit-Fi-number@msg.fi.google.com,,,,,,,,https://productforums.google.com/forum/#!topic/project-fi/_1wI6z2GXQk
+Worldwide,,,Google Fi,number@msg.fi.google.com,number@msg.fi.google.com,,,, Will not work with Hangouts integration - messages will only be sent directly to activated handset in the default SMS application (Android Messages).,You can send an email with an attachment of up to 8mb via Android Messages.,,https://productforums.google.com/forum/#!topic/project-fi/_1wI6z2GXQk https://support.google.com/fi/answer/6356597?hl=en
 Worldwide,,,Iridium (satellite),number@msg.iridium.com,,,,,,,,http://messaging.iridium.com/
 Worldwide,,,Phonovation,,,http://www.interactsms.com/,,,Bulk messaging.,,,
 Worldwide,,,Red Oxygen,http://www.redoxygen.net/web_sms/,,,,,API available. Sends as SMS. Replies are received as emails.,,,
