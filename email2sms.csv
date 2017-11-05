@@ -21,21 +21,21 @@ Europe,Bulgaria,,Globul,35989number@sms.globul.bg,,,,,,,,http://www.globul.bg/
 Europe,Bulgaria,,Mobiltel,35988number@sms.mtel.net,,,,,,,,https://www.mtel.bg/
 Europe,Croatia,,T-Mobile,385number@sms.t-mobile.hr,,,,,,100,address##subject#text,http://www.t-mobile.hr/eng/2/20-20-20-45-00.asp
 Europe,Czech Republic,,Vodafone,alias@vodafonemail.cz,,,Y,,,,,
-Europe,France,,Bouygues Telecom (company),,number@mms.bouyguestelecom.fr,,,,,,,
+Europe,France,,Bouygues Telecom (company),,number@mms.bouyguestelecom.fr,,,X,Reported not working (09/2017) alternate web interface is available.,,,https://www.assistance.bouyguestelecom.fr/mobiles/sms-mms-mobile/envoi-sms-gratuitement-internet
 Europe,France,,SFR,number@sfr.fr,,,,,,,,
 Europe,Germany,,E-Plus,0number@smsmail.eplus.de,,,,X,Reported not working (05/2016),,,
 Europe,Germany,,O2,0number@o2online.de,,,,,,,,
 Europe,Germany,,T-Mobile,number@t-mobile-sms.de,,,,,,,,
 Europe,Germany,,Vodafone,0number@vodafone-sms.de,,,,,,,,
 Europe,Iceland,,OgVodafone,number@sms.is,,,,,,,,
-Europe,Iceland,,S•À__minn,number@box.is,,,,,,,,
+Europe,Iceland,,S¥Ë__minn,number@box.is,,,,,,,,
 Europe,Ireland,,Meteor,number@sms.mymeteor.ie,number@mms.mymeteor.ie,,,,,,,
 Europe,Italy,,TIM,0number@timnet.com,,,,,,,,
 Europe,Italy,,Vodafone,3**number@sms.vodafone.it,,,,,,,,
 Europe,Moldova,,Eventis,,,http://eventis.md/index.php?option=com_eventisforms&Itemid=140,,,,,,
 Europe,Moldova,,Moldcell,,,http://www.moldcell.md/eng/private/websms,,,,,,
 Europe,Moldova,,Orange Moldova,,,https://www.orangetext.md/,,,,,,
-Europe,Moldova,,Unití©,,,http://unite.md/sms/,,,,,,
+Europe,Moldova,,Unit’©,,,http://unite.md/sms/,,,,,,
 Europe,Netherlands,,Orange,0number@sms.orange.nl,,,,,,,,
 Europe,Netherlands,,T-Mobile,31number@gin.nl,,,,,,,,
 Europe,Norway,,Sendega,number@sendega.com,,,Y,,,,"Content support: subject,body or subject + body. Settings available from website (login required)",http://www.sendega.com/
@@ -127,7 +127,7 @@ North America,Costa Rica,,ICE,number@sms.ice.cr,,,,X,,1001,address : (subject) t
 North America,Mexico,,Nextel,number@msgnextel.com.mx,,,,,,,,http://www.nextel.com.mx/
 North America,Mexico,,Telcel,number@itelcel.com,,,,,,,,http://www.telcel.com/
 North America,Nicaragua,,Claro,number@ideasclaro-ca.com,,,,,,,,http://www.claro.com.ni/index.php?option=com_content&task=view&id=101&Itemid=289
-North America,Panama,,M•À_•À_s M•À__vil,number@cwmovil.com,,,,,,,,http://web.masmovil.com.pa/sms_email.htm
+North America,Panama,,M¥Ë_¥Ë_s M¥Ë__vil,number@cwmovil.com,,,,,,,,http://web.masmovil.com.pa/sms_email.htm
 North America,Puerto Rico,,Claro,number@vtexto.com,,,,,,,,http://www.claropr.com/
 North America,United States,Alaska,General Communications Inc.,number@mobile.gci.net,,,,,,,,http://www.gci.com/
 North America,United States,American Samoa,Bluesky Communications,number@psms.bluesky.as,,,,,,,,
@@ -240,8 +240,8 @@ South America,Argentina,,Movistar,number@sms.movistar.net.ar,,,,,,,,http://www.m
 South America,Argentina,,Nextel,TwoWay.11number@nextel.net.ar,,,,,,,,http://www.nextel.com.ar/
 South America,Argentina,,Personal,number@alertas.personal.com.ar,,,,,Call provider for activation,,,
 South America,Aruba,,Setar Mobile email (Aruba),297number@mas.aw,,,,,,,,http://www.mas.aw/
-South America,Brazil,,Claro,number@clarotorpedo.com.br,,,,,Registration not required,,,http://www.claroideias.com.br/portal/site/CIdeias/menuitem.6abfd19566faa7152e742e1022dc10a0/&idlocal=56
-South America,Brazil,,Vivo,number@torpedoemail.com.br,,,Y,,,,,http://www.torpedoemail.com.br/
+South America,Brazil,,Claro,number@clarotorpedo.com.br,,,,X,Registration not required,,,http://www.claroideias.com.br/portal/site/CIdeias/menuitem.6abfd19566faa7152e742e1022dc10a0/&idlocal=56
+South America,Brazil,,Vivo,number@torpedoemail.com.br,,,Y,X,,,,http://www.torpedoemail.com.br/
 South America,Colombia,,Claro,number@iclaro.com.co,,,,,,,,http://www.claro.com.co/
 South America,Colombia,,Movistar,number@movistar.com.co,,,,,,,,http://www.movistar.com.co/emocion/
 South America,Colombia,,Tigo (Formerly Ola),number@sms.tigo.com.co,,,,,,,,http://www.tigo.com.co/
@@ -270,3 +270,4 @@ Worldwide,,,Thuraya (satellite),,,https://sms.thuraya.com/,,,,,,
 Worldwide,,,UkraineCalling,,,http://www.ukrainecalling.com/smsto.aspx,,,,,,
 Worldwide,,,Panacea Mobile,number@api.panaceamobile.com,,,Y,,,,subject: username password,http://www.panaceamobile.com/sms-gateway
 Worldwide,,,RoutoMessaging,number@email2sms.routomessaging.com,,,,,,,Subject: Sender ID(Originating Address who is sending the message)Body: the message (Note: plain text emails supported),http://www.routomessaging.com/Email2SMS.pmx
+Worldwide,,,Sendmode," number@sendmode.com",,,,,,,," http://www.sendmode.com/email2sms"
