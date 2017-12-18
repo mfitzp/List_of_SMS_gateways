@@ -16,7 +16,8 @@ with open('email2sms.csv', newline='', encoding='utf-8') as f:
             
 
 with open('www/sms.json', 'w') as f:
-    json.dump(gateways, f)
+    json.dump(gateways, f, separators=(',',':'))
+
 
 
         
