@@ -28,14 +28,14 @@ Europe,Germany,,O2,0number@o2online.de,,,,,,,,
 Europe,Germany,,T-Mobile,number@t-mobile-sms.de,,,,,,,,
 Europe,Germany,,Vodafone,0number@vodafone-sms.de,,,,,,,,
 Europe,Iceland,,OgVodafone,number@sms.is,,,,,,,,
-Europe,Iceland,,S¥Ë__minn,number@box.is,,,,,,,,
+Europe,Iceland,,Sminn,number@box.is,,,,,,,,
 Europe,Ireland,,Meteor,number@sms.mymeteor.ie,number@mms.mymeteor.ie,,,,,,,
 Europe,Italy,,TIM,0number@timnet.com,,,,,,,,
 Europe,Italy,,Vodafone,3**number@sms.vodafone.it,,,,,,,,
 Europe,Moldova,,Eventis,,,http://eventis.md/index.php?option=com_eventisforms&Itemid=140,,,,,,
 Europe,Moldova,,Moldcell,,,http://www.moldcell.md/eng/private/websms,,,,,,
 Europe,Moldova,,Orange Moldova,,,https://www.orangetext.md/,,,,,,
-Europe,Moldova,,Unit’©,,,http://unite.md/sms/,,,,,,
+Europe,Moldova,,Unite,,,http://unite.md/sms/,,,,,,
 Europe,Netherlands,,Orange,0number@sms.orange.nl,,,,,,,,
 Europe,Netherlands,,T-Mobile,31number@gin.nl,,,,,,,,
 Europe,Norway,,Sendega,number@sendega.com,,,Y,,,,"Content support: subject,body or subject + body. Settings available from website (login required)",http://www.sendega.com/
@@ -127,7 +127,7 @@ North America,Costa Rica,,ICE,number@sms.ice.cr,,,,X,,1001,address : (subject) t
 North America,Mexico,,Nextel,number@msgnextel.com.mx,,,,,,,,http://www.nextel.com.mx/
 North America,Mexico,,Telcel,number@itelcel.com,,,,,,,,http://www.telcel.com/
 North America,Nicaragua,,Claro,number@ideasclaro-ca.com,,,,,,,,http://www.claro.com.ni/index.php?option=com_content&task=view&id=101&Itemid=289
-North America,Panama,,M¥Ë_¥Ë_s M¥Ë__vil,number@cwmovil.com,,,,,,,,http://web.masmovil.com.pa/sms_email.htm
+North America,Panama,,Masmovil,number@cwmovil.com,,,,,,,,http://web.masmovil.com.pa/sms_email.htm
 North America,Puerto Rico,,Claro,number@vtexto.com,,,,,,,,http://www.claropr.com/
 North America,United States,Alaska,General Communications Inc.,number@mobile.gci.net,,,,,,,,http://www.gci.com/
 North America,United States,American Samoa,Bluesky Communications,number@psms.bluesky.as,,,,,,,,
@@ -251,23 +251,23 @@ South America,Paraguay,,CTI (Now Claro),,,http://www.cti.com.py/,,,,,,
 South America,Peru,,Claro,,,http://mensajes.claro.com.pe/,,,,,,
 South America,Uruguay,,CTI (Now Claro),,,http://www.cti.com.uy/,,,,,,
 South America,Uruguay,,Movistar,95number@sms.movistar.com.uy,,,,,,,,
-South America,,,Movistar,number@movimensaje.com.ar,,,,,,,,
-Worldwide,,,TellusTalk,number@esms.nu,,,,,,,,http://www.tellustalk.com/
-Worldwide,,,All Carrier,number@email.experttexting.com,,,Y,,,,N/A,http://www.ExpertTexting.com
-Worldwide,,,blablaSMS,,,http://www.blablasms.com/?pk_campaign=00&pk_kwd=wkp,,,,,,
-Worldwide,,,BudgetSMS.net,,,http://www.budgetsms.net/,Y,,,,,
-Worldwide,,,BulkSMS.com,number@bulksms.net,,,Y,,Login via API,,,http://www.bulksms.com/int/w/eapi-sms-gateway.htm
-Worldwide,,,Bulletin.net,InternationalFormattednumber@bulletinmessenger.net,,,Y,,,,,http://bulletinmessenger.net/
-Worldwide,,,CM Telecom,www.smsgateway.to/en,,,,,,,,
-Worldwide,,,FreeSMSGateway.info,,,http://FreeSMSGateway.info,,,,,,
-Worldwide,,,Globalstar (satellite),number@msg.globalstarusa.com,,,,,,,,http://www.globalstarusa.com/en/services/enhancedservices/g2sms.php
-Worldwide,,,Google Fi,number@msg.fi.google.com,number@msg.fi.google.com,,,, Will not work with Hangouts integration - messages will only be sent directly to activated handset in the default SMS application (Android Messages).,You can send an email with an attachment of up to 8mb via Android Messages.,,https://productforums.google.com/forum/#!topic/project-fi/_1wI6z2GXQk https://support.google.com/fi/answer/6356597?hl=en
-Worldwide,,,Iridium (satellite),number@msg.iridium.com,,,,,,,,http://messaging.iridium.com/
-Worldwide,,,Phonovation,,,http://www.interactsms.com/,,,Bulk messaging.,,,
-Worldwide,,,Red Oxygen,http://www.redoxygen.net/web_sms/,,,,,API available. Sends as SMS. Replies are received as emails.,,,
-Worldwide,,,Textmagic.com,,,http://textmagic.com,,,Bulk messaging.,,,
-Worldwide,,,Thuraya (satellite),,,https://sms.thuraya.com/,,,,,,
-Worldwide,,,UkraineCalling,,,http://www.ukrainecalling.com/smsto.aspx,,,,,,
-Worldwide,,,Panacea Mobile,number@api.panaceamobile.com,,,Y,,,,subject: username password,http://www.panaceamobile.com/sms-gateway
-Worldwide,,,RoutoMessaging,number@email2sms.routomessaging.com,,,,,,,Subject: Sender ID(Originating Address who is sending the message)Body: the message (Note: plain text emails supported),http://www.routomessaging.com/Email2SMS.pmx
-Worldwide,,,Sendmode," number@sendmode.com",,,,,,,," http://www.sendmode.com/email2sms"
+South America,Argentina,,Movistar,number@movimensaje.com.ar,,,,,,,,
+Worldwide,Any,,TellusTalk,number@esms.nu,,,,,,,,http://www.tellustalk.com/
+Worldwide,Any,,All Carrier,number@email.experttexting.com,,,Y,,,,N/A,http://www.ExpertTexting.com
+Worldwide,Any,,blablaSMS,,,http://www.blablasms.com/?pk_campaign=00&pk_kwd=wkp,,,,,,
+Worldwide,Any,,BudgetSMS.net,,,http://www.budgetsms.net/,Y,,,,,
+Worldwide,Any,,BulkSMS.com,number@bulksms.net,,,Y,,Login via API,,,http://www.bulksms.com/int/w/eapi-sms-gateway.htm
+Worldwide,Any,,Bulletin.net,InternationalFormattednumber@bulletinmessenger.net,,,Y,,,,,http://bulletinmessenger.net/
+Worldwide,Any,,CM Telecom,www.smsgateway.to/en,,,,,,,,
+Worldwide,Any,,FreeSMSGateway.info,,,http://FreeSMSGateway.info,,,,,,
+Worldwide,Any,,Globalstar (satellite),number@msg.globalstarusa.com,,,,,,,,http://www.globalstarusa.com/en/services/enhancedservices/g2sms.php
+Worldwide,Any,,Google Fi,number@msg.fi.google.com,number@msg.fi.google.com,,,, Will not work with Hangouts integration - messages will only be sent directly to activated handset in the default SMS application (Android Messages).,You can send an email with an attachment of up to 8mb via Android Messages.,,https://productforums.google.com/forum/#!topic/project-fi/_1wI6z2GXQk https://support.google.com/fi/answer/6356597?hl=en
+Worldwide,Any,,Iridium (satellite),number@msg.iridium.com,,,,,,,,http://messaging.iridium.com/
+Worldwide,Any,,Phonovation,,,http://www.interactsms.com/,,,Bulk messaging.,,,
+Worldwide,Any,,Red Oxygen,http://www.redoxygen.net/web_sms/,,,,,API available. Sends as SMS. Replies are received as emails.,,,
+Worldwide,Any,,Textmagic.com,,,http://textmagic.com,,,Bulk messaging.,,,
+Worldwide,Any,,Thuraya (satellite),,,https://sms.thuraya.com/,,,,,,
+Worldwide,Any,,UkraineCalling,,,http://www.ukrainecalling.com/smsto.aspx,,,,,,
+Worldwide,Any,,Panacea Mobile,number@api.panaceamobile.com,,,Y,,,,subject: username password,http://www.panaceamobile.com/sms-gateway
+Worldwide,Any,,RoutoMessaging,number@email2sms.routomessaging.com,,,,,,,Subject: Sender ID(Originating Address who is sending the message)Body: the message (Note: plain text emails supported),http://www.routomessaging.com/Email2SMS.pmx
+Worldwide,Any,,Sendmode,number@sendmode.com,,,,,,,,http://www.sendmode.com/email2sms

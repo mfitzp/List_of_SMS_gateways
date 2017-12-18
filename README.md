@@ -1,12 +1,12 @@
 List_of_SMS_gateways
 ====================
 
+*To search the list and for more information, see [email2sms.info](https://email2sms.info)*
+
 This content was previously available on WikiPedia but deleted as not really encylopaedia-worthy. Since an article of mine was originally a major source for the data in the page, I took a copy for posterity. It's now here on Github to and publically editable by all.
 
 The HTML version is available in `legacy.md` (stored this way so Github renders it) and contains the rendered Wikipedia page as it was when it was taken down. For up to date entries (and to make changes)
 see the [email2sms.csv](email2sms.csv) file — a text CSV file which has been cleaned and restructured. PRs welcome.
-
-*Important! I can’t provide support for any of the information provided below.*
 
 ## What is this?
 

@@ -1,0 +1,483 @@
+<html>
+<head>
+<title>Email to SMS - Send Free SMS via Email</title>
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  crossorigin="anonymous"></script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    body {
+        background-color:#0D47A1;
+    }
+
+    .pure-g > div {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .l-box {
+        padding: 1em;
+    }
+
+    @media screen and (min-width: 48em) {
+        .l-box {
+            padding: 0;
+            width: 40em;
+        }    
+    }
+
+    a {
+        color: #90CAF9;
+    }
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 300;
+        margin: 5rem 0 0 0;
+    }
+    h2 {
+        font-size: 1.6rem;
+        margin: 4rem 0 -0.3rem 0;
+
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    h6 {
+        font-size: 0.875rem;
+    }
+
+    h1, h2, h3 ,h4, h5, h6 {
+        font-family: 'Source Sans Pro',Helvetica Neue,Lucida Grande,sans-serif;
+        color: #fff;
+        line-height: 1em;
+    }
+
+    p, li, label {
+        font-size: 1.5rem;
+        font-family: 'Source Sans Pro',Helvetica Neue,Lucida Grande,sans-serif;
+        line-height: 1.5em;
+        color: #E3F2FD;
+        font-weight: 300;
+    }
+
+    .main-body {
+        margin:0 auto;
+    }
+
+    .boxout {
+        padding: 1rem 2rem;
+        background-color: rgba(0,0,0,0.3);
+        margin: 0 -2rem;    
+    }
+
+    .boxout h2 {
+        margin-top: 1.5rem;
+    }
+
+    .cta {
+        background: #4CAF50;
+        color: white;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .google-ad-block {
+        margin: 2rem 0;
+    }
+
+    .no {
+        display: inline-block;
+        width: 2rem;
+        font-size: 1.5rem;
+        margin-left: -2rem;
+    }
+
+    .indent {
+        padding: 0 2rem;
+    }
+
+    .gateway {
+        padding: 0 1rem;
+        background-color: rgba(255,255,255,0.1);
+        margin-bottom: 0.5rem;
+    }
+
+    #whatnext { display: none; }
+
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-341253-12"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-341253-12');
+</script>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6187761243917149",
+    enable_page_level_ads: true
+  });
+</script>
+
+<script>
+var gateways,
+    countries = []
+    max_n = 10;
+$(document).ready(function () {
+
+    /* Download the gateway JSON and pre-fill the country dropdown */
+    $.getJSON( "sms.json", function( data ) {
+        gateways = data;
+    
+        var countrylist = [];
+    
+        $.each( data, function( key, val ) {
+           countrylist.push(val.country);
+        });
+    
+        countrylist = countrylist.sort().filter((x, i, a) => !i || x != a[i-1]);
+
+        $.each(countrylist, function(i, c) {
+            $('#country').append($('<option>', {
+                value: c,
+                text: c
+            }));
+        });    
+    });
+
+});
+
+/* Perform search using country + search text against gateway list */
+search = function(c, s) {
+    var results = [];
+    
+        $.each( gateways, function( key, val ) {
+           if( c == val.country){ 
+            val.carrier.toLowerCase().indexOf(s);
+            
+            }
+           if (
+                (c == '' || c == val.country) &&
+                (val.carrier.toLowerCase().indexOf(s) !== -1)
+              ){
+                results.push(val)
+               }                 
+        });
+    
+    return results;  
+};
+
+searchGateways = function() {
+    var c = $('#country').val(),
+        s = $('#search').val().toLowerCase(),
+        results,
+        results_ex,
+        results_more = [],
+        out;
+        
+    if (c == '' && s == ''){ 
+        $('#results').empty();
+        return false;
+    }
+        
+    results = search(c,s);
+    total_n = results.length;
+    
+    if (total_n > 0) {
+        $('#whatnext').show();
+    } else {
+        $('#whatnext').hide();
+    }
+    
+    if (total_n > max_n) {
+        results_ex = results.slice(max_n, results.length);
+        results = results.slice(0, max_n);
+        $.each(results_ex, function( i, r ) {
+            results_more.push(r.carrier);
+        });
+        results_more = results_more.join(', ');
+    }
+        
+    
+    $('#results').empty();
+    
+    $.each(results, function( i, r ) {
+        out = '<div class="pure-u-1 gateway"><p>' +
+            '<b>' + r.carrier + '</b> ' + r.country + '<br />' +
+            '<b>Gateway</b> ' + (r['email-to-sms'] || r['email-to-mms']);
+            
+        if (r.notes){
+            out += '<br /><b>Notes</b> ' + r.notes;
+        }
+        out += '</p></div>';
+    
+        $('#results').append(out);
+    });
+    
+    if (total_n > max_n){    
+    
+        $('#results').append(
+        '<div class="pure-u-1"><p><b>' + total_n + '</b> results total, showing first ' + max_n + '.<br />' +
+        'Also matching ' + results_more + ' &mdash; <b>tweak your search terms</b> for details.</p></div>'
+        );
+    } else {
+        $('#results').append('<div class="pure-u-1"><p><b>' + total_n + '</b> result(s) total </p></div>');
+    }
+
+}
+
+
+</script>
+
+
+<script src="https://gumroad.com/js/gumroad.js"></script>
+
+</head>
+
+<body>
+
+<div class="pure-g">
+<div class="pure-u-1 pure-u-md-1-2 main-body l-box">
+
+
+
+<h1 class="section-title">Send SMS by Email</h1>
+
+<p>This is a list of carriers providing email to 
+SMS gateways, which allow you to <b>send text messages</b> to mobile phones <b>via email</b>.</p>
+
+<p>Emails are <b>specific to carriers</b> and SMS messages can only be sent directly to the carriers'
+unique email gateway. However, generic commercial services also exist.</p>
+
+<p>Sending email to SMS can be used to <b>avoid international fees</b> or set up
+automatic alerts using IFTTT.</p>
+
+<div class="google-ad-block">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6187761243917149"
+     data-ad-slot="9747285368"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<div class="boxout">
+<h2>Download the list</h2>
+<p>For <strong>just $3</strong> you can download the entire list as an Excel-compatible CSV, JSON and PDF ebook &mdash; and receive perpetual updates.</p>
+<p>Thankyou for supporting continued updates of the list.</p>
+<p>
+
+<a href="https://gum.co/CzmEo" target="_blank" data-gumroad-single-product="true" class="pure-button cta">Get it now</a>
+
+</p>
+</div>
+
+<h2>Search the&nbsp;list</h2>
+<p>Below you can search the current gateway list directly. Select your country 
+and (optionally) enter the name of your provider.</p>
+
+<form class="pure-form pure-form-stacked">
+       <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-3">
+                <label for="country">Country</label>
+                <select id="country" class="pure-u-1 pure-u-md-23-24" onchange="searchGateways()">
+                </select>
+            </div>
+        
+            <div class="pure-u-1 pure-u-md-2-3">
+                <label for="search">Carrier</label>
+                <input id="search" class="pure-u-1" type="text" placeholder="e.g. AT&T"  onkeyup="searchGateways()">
+            </div>
+        
+
+            <!--
+            <div class="pure-u-1">
+
+            <button type="submit" class="pure-button pure-u-1 pure-button-primary">Search</button>
+            </div>
+            
+            -->
+
+        </div>
+
+</form>
+
+
+<div id="results" class="pure-g">
+</div>
+
+<div id="whatnext">
+
+<h2>What next?</h2>  
+
+<p><span class="no">1.</span>Find your carrier in the returned results (above). Check for any provider-specific activation instructions in the Notes.</p>
+
+<p><span class="no">2.</span>Identify the SMS gateway email address you want to use. Many carriers have multiple gateways with separate email addresses for SMS (text) and MMS (multimedia)
+messages.</p>
+
+<p><span class="no">3.</span>Replace <b>number</b> with your own number, removing punctuation and non-numeric characters.</p>
+
+<p>If a specific format is known, it will be indicated by leading digits, e.g. 0number@ means you must include a leading zero.</p>
+<p>If no hint is provided, the format is not known. In this case try a few alternatives. 
+See the following examples:</p>
+
+<p class="indent"><b>987-555-0100 (US, +1)</b> US-style mobile, no leading zero</br> 9875550100@ 19875550100@</p>
+<p class="indent"><b>07800123123 (UK, +44)</b> EU-style mobile, leading zero</br> 07800123123@ 7800123123@ 447800123123@</p>
+
+<p><a href="mailto:martin@email2sms.info">Let me know</a> once you find the correct format.</p>
+
+<p><span class="no">4.</span>Send a test message to the email address. 
+Make the message short and avoid adding signatures etc. to the outgoing email or you will receive multiple messages.</p>
+
+<p><span class="no">5.</span>You will either receive
+an SMS or get an email delivery failure.</p>
+
+<p><span class="no">6.</span>If none of the numbers has worked, read the FAQ below.</p>
+</div>
+  
+<div class="google-ad-block">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6187761243917149"
+     data-ad-slot="9747285368"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+    
+<h2>FAQ</h2>
+
+<p><b>Why doesn't my gateway work?</b><br />
+Make sure you have followed any provider-specific activation instructions.
+Check you have tried all the suggested number formats (for most gateways the format is not known).
+<ol type="a">
+    <li><b>It works now!</b><br />
+    Great!</li>
+
+    <li><b>It still doesn't work!</b><br />
+    That's no fun. Can you <a href="mailto:martin@email2sms.info">let me know</a>?</li>
+</ol>
+</p>
+
+<p><b>I found a mistake :(</b><br />
+Oh dear, it happens. If you know of a correction to any entry please
+<a href="mailto:martin@email2sms.info">let me know</a> and the list will be updated.
+</p>
+
+<p><b>I can't find my carrier in your list</b><br />
+Many carriers do not offer email gateway services, and availability changes over time.
+If your carrier is not listed contact their support and ask for an "email to SMS gateway address".</p>
+<p>
+If they have one they will tell you. If they tell you, please <a href="mailto:martin@email2sms.info">tell me</a>.
+If they don't, you'll need to use a commercial SMS gateway.
+</p>
+
+<p><b>Do you have an API?</b><br/>
+Nope. There is no cost effective way to provide an API with the required guarantees of
+availability.</p>
+<p>If you 
+<a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">buy the download bundle</a>
+you will receive a JSON file of the complete dataset and get perpetual updates.
+</p>
+
+<p><b>Why does this list exist?</b><br />
+10 years ago I needed a free way to send notifications to a mobile phone.
+I ended up collecting a bunch of email to 
+SMS gateways. That list was copied to and expanded on Wikipedia, before being removed.
+I have maintained this copy of the list
+ever since, originally on my blog, now here.
+I don't know <em>why</em> I do this.</p>
+
+<p><b>What extras are in the full list?</b><br />
+The full list contains inactive gateways (historical info), reverse gateways (sending
+SMS to email) and additional notes.</p>
+
+<p>If you don't know which one you need, you probably don't need the full list. But, if you 
+want to support maintenance of the list that's
+<a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">a great way to do it</a>.</p>
+
+<p>The list is licensed CC-BY-SA, and the raw data is <a href="https://github.com/mfitzp/List_of_SMS_gateways">available here</a>.</p>
+
+<p><b>How is the list kept up to date?</b><br />
+The list is maintained on a voluntary basis, based on feedback and updates
+from people like you. 
+</p>
+
+<p><b>How do I add an entry to the list?</b><br/>
+<a href="mailto:martin@email2sms.info">Send the details to me</a> and I will update.
+Note that it can take a couple of months (there are a lot of emails and I have a life).
+</p>
+
+<p><b>How do I remove an entry from the list?</b><br/>
+Entries are marked inactive when they have had 3 consecutive failure reports, with no 
+successes, over a 6 month period. This is conservative but a lot of "failure" 
+reports are user error.</p>
+<p>Inactive entries are still visible in the 
+<a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">full download</a>.</p>
+
+<p><b>How often is the list updated?</b><br />
+At least once every 6 months. It's a volunteer effort.</p>
+
+<p><b>That's not good enough! I need up to date information!</b><br />
+Then you are more than welcome to pay (someone else) for it.
+</p>
+
+<!--
+<p><b>This is stupid! It doesn't work! Why have you wasted my time?! I hate you!</b><br />
+You're an entitled little shit.
+</p>
+-->
+
+<p><b>Thankyou!</b><br />
+You are most welcome, you nice person!
+</p>  
+
+<div class="google-ad-block">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6187761243917149"
+     data-ad-slot="9747285368"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<p class="footer"><i class="fa fa-copyright"></i> 2017 <a href="https://martinfitzp.com">Martin Fitzpatrick</a> &bull;
+Gateway data licensed <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC-BY-NC-SA</a>
+</p>
+
+  
+</div>
+</div>
+</body>
+       
