@@ -31,7 +31,7 @@
         .l-box {
             padding: 0;
             width: 40em;
-        }    
+        }
     }
 
     a {
@@ -82,7 +82,7 @@
     .boxout {
         padding: 1rem 2rem;
         background-color: rgba(0,0,0,0.3);
-        margin: 0 -2rem;    
+        margin: 0 -2rem;
     }
 
     .boxout h2 {
@@ -154,13 +154,13 @@ $(document).ready(function () {
     /* Download the gateway JSON and pre-fill the country dropdown */
     $.getJSON( "sms.json", function( data ) {
         gateways = data;
-    
+
         var countrylist = [];
-    
+
         $.each( data, function( key, val ) {
            countrylist.push(val.country);
         });
-    
+
         countrylist = countrylist.sort().filter((x, i, a) => !i || x != a[i-1]);
 
         $.each(countrylist, function(i, c) {
@@ -168,7 +168,7 @@ $(document).ready(function () {
                 value: c,
                 text: c
             }));
-        });    
+        });
     });
 
 });
@@ -176,21 +176,21 @@ $(document).ready(function () {
 /* Perform search using country + search text against gateway list */
 search = function(c, s) {
     var results = [];
-    
+
         $.each( gateways, function( key, val ) {
-           if( c == val.country){ 
+           if( c == val.country){
             val.carrier.toLowerCase().indexOf(s);
-            
+
             }
            if (
                 (c == '' || c == val.country) &&
                 (val.carrier.toLowerCase().indexOf(s) !== -1)
               ){
                 results.push(val)
-               }                 
+               }
         });
-    
-    return results;  
+
+    return results;
 };
 
 searchGateways = function() {
@@ -200,21 +200,21 @@ searchGateways = function() {
         results_ex,
         results_more = [],
         out;
-        
-    if (c == '' && s == ''){ 
+
+    if (c == '' && s == ''){
         $('#results').empty();
         return false;
     }
-        
+
     results = search(c,s);
     total_n = results.length;
-    
+
     if (total_n > 0) {
         $('#whatnext').show();
     } else {
         $('#whatnext').hide();
     }
-    
+
     if (total_n > max_n) {
         results_ex = results.slice(max_n, results.length);
         results = results.slice(0, max_n);
@@ -223,25 +223,25 @@ searchGateways = function() {
         });
         results_more = results_more.join(', ');
     }
-        
-    
+
+
     $('#results').empty();
-    
+
     $.each(results, function( i, r ) {
         out = '<div class="pure-u-1 gateway"><p>' +
             '<b>' + r.carrier + '</b> ' + r.country + '<br />' +
             '<b>Gateway</b> ' + (r['email-to-sms'] || r['email-to-mms']);
-            
+
         if (r.notes){
             out += '<br /><b>Notes</b> ' + r.notes;
         }
         out += '</p></div>';
-    
+
         $('#results').append(out);
     });
-    
-    if (total_n > max_n){    
-    
+
+    if (total_n > max_n){
+
         $('#results').append(
         '<div class="pure-u-1"><p><b>' + total_n + '</b> results total, showing first ' + max_n + '.<br />' +
         'Also matching ' + results_more + ' &mdash; <b>tweak your search terms</b> for details.</p></div>'
@@ -269,7 +269,7 @@ searchGateways = function() {
 
 <h1 class="section-title">Send SMS by Email</h1>
 
-<p>This is a list of carriers providing email to 
+<p>This is a list of carriers providing email to
 SMS gateways, which allow you to <b>send text messages</b> to mobile phones <b>via email</b>.</p>
 
 <p>Emails are <b>specific to carriers</b> and SMS messages can only be sent directly to the carriers'
@@ -289,22 +289,8 @@ automatic alerts using IFTTT.</p>
 </script>
 </div>
 
-<div class="boxout">
-<h2>Download the list</h2>
-<p>For <strong>just $3</strong> you can download the entire list as an Excel-compatible CSV, JSON and PDF ebook &mdash; and receive perpetual updates.</p>
-<p>Thankyou for supporting continued updates of the list.</p>
-<p>
-
-<a href="https://gum.co/CzmEo" target="_blank" data-gumroad-single-product="true" class="pure-button cta">Get it now</a>
-
-</p>
-</div>
-
-<p>If you just want the CSV, you can <a href="https://raw.githubusercontent.com/mfitzp/List_of_SMS_gateways/master/email2sms.csv">download it here</a>.
-
-
 <h2>Search the&nbsp;list</h2>
-<p>Below you can search the current gateway list directly. Select your country 
+<p>Below you can search the current gateway list directly. Select your country
 and (optionally) enter the name of your provider.</p>
 
 <form class="pure-form pure-form-stacked">
@@ -314,19 +300,19 @@ and (optionally) enter the name of your provider.</p>
                 <select id="country" class="pure-u-1 pure-u-md-23-24" onchange="searchGateways()">
                 </select>
             </div>
-        
+
             <div class="pure-u-1 pure-u-md-2-3">
                 <label for="search">Carrier</label>
                 <input id="search" class="pure-u-1" type="text" placeholder="e.g. AT&T"  onkeyup="searchGateways()">
             </div>
-        
+
 
             <!--
             <div class="pure-u-1">
 
             <button type="submit" class="pure-button pure-u-1 pure-button-primary">Search</button>
             </div>
-            
+
             -->
 
         </div>
@@ -339,7 +325,7 @@ and (optionally) enter the name of your provider.</p>
 
 <div id="whatnext">
 
-<h2>What next?</h2>  
+<h2>What next?</h2>
 
 <p><span class="no">1.</span>Find your carrier in the returned results (above). Check for any provider-specific activation instructions in the Notes.</p>
 
@@ -349,7 +335,7 @@ messages.</p>
 <p><span class="no">3.</span>Replace <b>number</b> with your own number, removing punctuation and non-numeric characters.</p>
 
 <p>If a specific format is known, it will be indicated by leading digits, e.g. 0number@ means you must include a leading zero.</p>
-<p>If no hint is provided, the format is not known. In this case try a few alternatives. 
+<p>If no hint is provided, the format is not known. In this case try a few alternatives.
 See the following examples:</p>
 
 <p class="indent"><b>987-555-0100 (US, +1)</b> US-style mobile, no leading zero</br> 9875550100@ 19875550100@</p>
@@ -357,7 +343,7 @@ See the following examples:</p>
 
 <p><a href="mailto:martin@email2sms.info">Let me know</a> once you find the correct format.</p>
 
-<p><span class="no">4.</span>Send a test message to the email address. 
+<p><span class="no">4.</span>Send a test message to the email address.
 Make the message short and avoid adding signatures etc. to the outgoing email or you will receive multiple messages.</p>
 
 <p><span class="no">5.</span>You will either receive
@@ -365,7 +351,7 @@ an SMS or get an email delivery failure.</p>
 
 <p><span class="no">6.</span>If none of the numbers has worked, read the FAQ below.</p>
 </div>
-  
+
 <div class="google-ad-block">
 <ins class="adsbygoogle"
      style="display:block"
@@ -376,7 +362,14 @@ an SMS or get an email delivery failure.</p>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
-    
+
+<div class="boxout">
+    <p>If you just want the data, you can download it in
+        <a href="https://raw.githubusercontent.com/mfitzp/List_of_SMS_gateways/master/email2sms.csv">CSV</a>
+        and <a href="https://raw.githubusercontent.com/mfitzp/List_of_SMS_gateways/master/sms.json">JSON</a> formats.
+    </p>
+</div>
+
 <h2>FAQ</h2>
 
 <p><b>Why doesn't my gateway work?</b><br />
@@ -407,14 +400,14 @@ If they don't, you'll need to use a commercial SMS gateway.
 <p><b>Do you have an API?</b><br/>
 Nope. There is no cost effective way to provide an API with the required guarantees of
 availability.</p>
-<p>If you 
+<p>If you
 <a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">buy the download bundle</a>
 you will receive a JSON file of the complete dataset and get perpetual updates.
 </p>
 
 <p><b>Why does this list exist?</b><br />
 10 years ago I needed a free way to send notifications to a mobile phone.
-I ended up collecting a bunch of email to 
+I ended up collecting a bunch of email to
 SMS gateways. That list was copied to and expanded on Wikipedia, before being removed.
 I have maintained this copy of the list
 ever since, originally on my blog, now here.
@@ -424,7 +417,7 @@ I don't know <em>why</em> I do this.</p>
 The full list contains inactive gateways (historical info), reverse gateways (sending
 SMS to email) and additional notes.</p>
 
-<p>If you don't know which one you need, you probably don't need the full list. But, if you 
+<p>If you don't know which one you need, you probably don't need the full list. But, if you
 want to support maintenance of the list that's
 <a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">a great way to do it</a>.</p>
 
@@ -432,7 +425,7 @@ want to support maintenance of the list that's
 
 <p><b>How is the list kept up to date?</b><br />
 The list is maintained on a voluntary basis, based on feedback and updates
-from people like you. 
+from people like you.
 </p>
 
 <p><b>How do I add an entry to the list?</b><br/>
@@ -441,10 +434,10 @@ Note that it can take a couple of months (there are a lot of emails and I have a
 </p>
 
 <p><b>How do I remove an entry from the list?</b><br/>
-Entries are marked inactive when they have had 3 consecutive failure reports, with no 
-successes, over a 6 month period. This is conservative but a lot of "failure" 
+Entries are marked inactive when they have had 3 consecutive failure reports, with no
+successes, over a 6 month period. This is conservative but a lot of "failure"
 reports are user error.</p>
-<p>Inactive entries are still visible in the 
+<p>Inactive entries are still visible in the
 <a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">full download</a>.</p>
 
 <p><b>How often is the list updated?</b><br />
@@ -462,7 +455,7 @@ You're an entitled little shit.
 
 <p><b>Thankyou!</b><br />
 You are most welcome, you nice person!
-</p>  
+</p>
 
 <div class="google-ad-block">
 <ins class="adsbygoogle"
@@ -479,8 +472,8 @@ You are most welcome, you nice person!
 Gateway data licensed <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC-BY-NC-SA</a>
 </p>
 
-  
+
 </div>
 </div>
 </body>
-       
+
