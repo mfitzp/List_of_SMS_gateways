@@ -256,8 +256,6 @@ searchGateways = function() {
 </script>
 
 
-<script src="https://gumroad.com/js/gumroad.js" async></script>
-
 </head>
 
 <body>
@@ -287,6 +285,14 @@ automatic alerts using IFTTT.</p>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
+<div class="boxout">
+    <h3>Download the data</h3>
+    <p>If you just want the data, you can download it in
+        <a href="https://raw.githubusercontent.com/mfitzp/List_of_SMS_gateways/master/email2sms.csv">CSV</a>
+        and <a href="https://raw.githubusercontent.com/mfitzp/List_of_SMS_gateways/master/sms.json">JSON</a> formats.
+    </p>
 </div>
 
 <h2>Search the&nbsp;list</h2>
@@ -341,7 +347,7 @@ See the following examples:</p>
 <p class="indent"><b>987-555-0100 (US, +1)</b> US-style mobile, no leading zero</br> 9875550100@ 19875550100@</p>
 <p class="indent"><b>07800123123 (UK, +44)</b> EU-style mobile, leading zero</br> 07800123123@ 7800123123@ 447800123123@</p>
 
-<p><a href="mailto:martin@email2sms.info">Let me know</a> once you find the correct format.</p>
+<p><a href="https://github.com/mfitzp/List_of_SMS_gateways">Open an issue on Github</a> with the identified format.</p>
 
 <p><span class="no">4.</span>Send a test message to the email address.
 Make the message short and avoid adding signatures etc. to the outgoing email or you will receive multiple messages.</p>
@@ -363,12 +369,7 @@ an SMS or get an email delivery failure.</p>
 </script>
 </div>
 
-<div class="boxout">
-    <p>If you just want the data, you can download it in
-        <a href="https://raw.githubusercontent.com/mfitzp/List_of_SMS_gateways/master/email2sms.csv">CSV</a>
-        and <a href="https://raw.githubusercontent.com/mfitzp/List_of_SMS_gateways/master/sms.json">JSON</a> formats.
-    </p>
-</div>
+
 
 <h2>FAQ</h2>
 
@@ -380,29 +381,28 @@ Check you have tried all the suggested number formats (for most gateways the for
     Great!</li>
 
     <li><b>It still doesn't work!</b><br />
-    That's no fun. Can you <a href="mailto:martin@email2sms.info">let me know</a>?</li>
+    That's no fun. It could be the information is out of date. You <a href="https://github.com/mfitzp/List_of_SMS_gateways">can suggest corrections on Github</a>.</li>
 </ol>
 </p>
 
 <p><b>I found a mistake :(</b><br />
 Oh dear, it happens. If you know of a correction to any entry please
-<a href="mailto:martin@email2sms.info">let me know</a> and the list will be updated.
+<a href="https://github.com/mfitzp/List_of_SMS_gateways">open an issue on Github</a> and the list will be updated.
 </p>
 
 <p><b>I can't find my carrier in your list</b><br />
 Many carriers do not offer email gateway services, and availability changes over time.
 If your carrier is not listed contact their support and ask for an "email to SMS gateway address".</p>
 <p>
-If they have one they will tell you. If they tell you, please <a href="mailto:martin@email2sms.info">tell me</a>.
-If they don't, you'll need to use a commercial SMS gateway.
+If they have one they will tell you, if they don't you'll need to use a commercial SMS gateway.
 </p>
 
 <p><b>Do you have an API?</b><br/>
 Nope. There is no cost effective way to provide an API with the required guarantees of
 availability.</p>
-<p>If you
-<a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">buy the download bundle</a>
-you will receive a JSON file of the complete dataset and get perpetual updates.
+<p>You can
+<a href="https://raw.githubusercontent.com/mfitzp/List_of_SMS_gateways/master/sms.json" target="_blank" data-gumroad-single-product="true">download the data in JSON format</a> and
+use this in your applications.
 </p>
 
 <p><b>Why does this list exist?</b><br />
@@ -413,14 +413,6 @@ I have maintained this copy of the list
 ever since, originally on my blog, now here.
 I don't know <em>why</em> I do this.</p>
 
-<p><b>What extras are in the full list?</b><br />
-The full list contains inactive gateways (historical info), reverse gateways (sending
-SMS to email) and additional notes.</p>
-
-<p>If you don't know which one you need, you probably don't need the full list. But, if you
-want to support maintenance of the list that's
-<a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">a great way to do it</a>.</p>
-
 <p>The list is licensed CC-BY-SA, and the raw data is <a href="https://github.com/mfitzp/List_of_SMS_gateways">available here</a>.</p>
 
 <p><b>How is the list kept up to date?</b><br />
@@ -429,22 +421,20 @@ from people like you.
 </p>
 
 <p><b>How do I add an entry to the list?</b><br/>
-<a href="mailto:martin@email2sms.info">Send the details to me</a> and I will update.
-Note that it can take a couple of months (there are a lot of emails and I have a life).
+<a href="https://github.com/mfitzp/List_of_SMS_gateways">Open an issue on Github</a> and I will update.
 </p>
 
 <p><b>How do I remove an entry from the list?</b><br/>
 Entries are marked inactive when they have had 3 consecutive failure reports, with no
 successes, over a 6 month period. This is conservative but a lot of "failure"
 reports are user error.</p>
-<p>Inactive entries are still visible in the
-<a href="https://gum.co/CzmEo?wanted=true" target="_blank" data-gumroad-single-product="true">full download</a>.</p>
+<p>Inactive entries are still visible in the dataset.</p>
 
 <p><b>How often is the list updated?</b><br />
-At least once every 6 months. It's a volunteer effort.</p>
+It's a volunteer effort.</p>
 
 <p><b>That's not good enough! I need up to date information!</b><br />
-Then you are more than welcome to pay (someone else) for it.
+Then you are more than welcome to pay someone else for it.
 </p>
 
 <!--
