@@ -15,7 +15,7 @@ with open('email2sms.csv', newline='', encoding='utf-8') as f:
             gateways.append({ k.lower():row[k] for k in keys })
             
 
-with open('www/email2sms/sms.json', 'w') as f:
+with open('www/sms.json', 'w') as f:
     json.dump(gateways, f, separators=(',',':'))
 
 
