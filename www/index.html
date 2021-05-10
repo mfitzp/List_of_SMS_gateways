@@ -120,7 +120,6 @@
 
 </style>
 
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-341253-12"></script>
 <script>
@@ -130,130 +129,9 @@
 
   gtag('config', 'UA-341253-12');
 </script>
+  
 
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6187761243917149",
-    enable_page_level_ads: true
-  });
-</script>
-
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  crossorigin="anonymous"></script>
-
-
-<script>
-var gateways,
-    countries = []
-    max_n = 10;
-$(document).ready(function () {
-
-    /* Download the gateway JSON and pre-fill the country dropdown */
-    $.getJSON( "sms.json", function( data ) {
-        gateways = data;
-
-        var countrylist = [];
-
-        $.each( data, function( key, val ) {
-           countrylist.push(val.country);
-        });
-
-        countrylist = countrylist.sort().filter((x, i, a) => !i || x != a[i-1]);
-
-        $.each(countrylist, function(i, c) {
-            $('#country').append($('<option>', {
-                value: c,
-                text: c
-            }));
-        });
-    });
-
-});
-
-/* Perform search using country + search text against gateway list */
-search = function(c, s) {
-    var results = [];
-
-        $.each( gateways, function( key, val ) {
-           if( c == val.country){
-            val.carrier.toLowerCase().indexOf(s);
-
-            }
-           if (
-                (c == '' || c == val.country) &&
-                (val.carrier.toLowerCase().indexOf(s) !== -1)
-              ){
-                results.push(val)
-               }
-        });
-
-    return results;
-};
-
-searchGateways = function() {
-    var c = $('#country').val(),
-        s = $('#search').val().toLowerCase(),
-        results,
-        results_ex,
-        results_more = [],
-        out;
-
-    if (c == '' && s == ''){
-        $('#results').empty();
-        return false;
-    }
-
-    results = search(c,s);
-    total_n = results.length;
-
-    if (total_n > 0) {
-        $('#whatnext').show();
-    } else {
-        $('#whatnext').hide();
-    }
-
-    if (total_n > max_n) {
-        results_ex = results.slice(max_n, results.length);
-        results = results.slice(0, max_n);
-        $.each(results_ex, function( i, r ) {
-            results_more.push(r.carrier);
-        });
-        results_more = results_more.join(', ');
-    }
-
-
-    $('#results').empty();
-
-    $.each(results, function( i, r ) {
-        out = '<div class="pure-u-1 gateway"><p>' +
-            '<b>' + r.carrier + '</b> ' + r.country + '<br />' +
-            '<b>Gateway</b> ' + (r['email-to-sms'] || r['email-to-mms']);
-
-        if (r.notes){
-            out += '<br /><b>Notes</b> ' + r.notes;
-        }
-        out += '</p></div>';
-
-        $('#results').append(out);
-    });
-
-    if (total_n > max_n){
-
-        $('#results').append(
-        '<div class="pure-u-1"><p><b>' + total_n + '</b> results total, showing first ' + max_n + '.<br />' +
-        'Also matching ' + results_more + ' &mdash; <b>tweak your search terms</b> for details.</p></div>'
-        );
-    } else {
-        $('#results').append('<div class="pure-u-1"><p><b>' + total_n + '</b> result(s) total </p></div>');
-    }
-
-}
-
-
-</script>
 
 
 </head>
@@ -465,5 +343,122 @@ Gateway data licensed <a href="https://creativecommons.org/licenses/by-nc-sa/2.0
 
 </div>
 </div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  crossorigin="anonymous"></script>
+    
+<script>
+var gateways,
+    countries = []
+    max_n = 10;
+$(document).ready(function () {
+
+    /* Download the gateway JSON and pre-fill the country dropdown */
+    $.getJSON( "sms.json", function( data ) {
+        gateways = data;
+
+        var countrylist = [];
+
+        $.each( data, function( key, val ) {
+           countrylist.push(val.country);
+        });
+
+        countrylist = countrylist.sort().filter((x, i, a) => !i || x != a[i-1]);
+
+        $.each(countrylist, function(i, c) {
+            $('#country').append($('<option>', {
+                value: c,
+                text: c
+            }));
+        });
+    });
+
+});
+
+/* Perform search using country + search text against gateway list */
+search = function(c, s) {
+    var results = [];
+
+        $.each( gateways, function( key, val ) {
+           if( c == val.country){
+            val.carrier.toLowerCase().indexOf(s);
+
+            }
+           if (
+                (c == '' || c == val.country) &&
+                (val.carrier.toLowerCase().indexOf(s) !== -1)
+              ){
+                results.push(val)
+               }
+        });
+
+    return results;
+};
+
+searchGateways = function() {
+    var c = $('#country').val(),
+        s = $('#search').val().toLowerCase(),
+        results,
+        results_ex,
+        results_more = [],
+        out;
+
+    if (c == '' && s == ''){
+        $('#results').empty();
+        return false;
+    }
+
+    results = search(c,s);
+    total_n = results.length;
+
+    if (total_n > 0) {
+        $('#whatnext').show();
+    } else {
+        $('#whatnext').hide();
+    }
+
+    if (total_n > max_n) {
+        results_ex = results.slice(max_n, results.length);
+        results = results.slice(0, max_n);
+        $.each(results_ex, function( i, r ) {
+            results_more.push(r.carrier);
+        });
+        results_more = results_more.join(', ');
+    }
+
+
+    $('#results').empty();
+
+    $.each(results, function( i, r ) {
+        out = '<div class="pure-u-1 gateway"><p>' +
+            '<b>' + r.carrier + '</b> ' + r.country + '<br />' +
+            '<b>Gateway</b> ' + (r['email-to-sms'] || r['email-to-mms']);
+
+        if (r.notes){
+            out += '<br /><b>Notes</b> ' + r.notes;
+        }
+        out += '</p></div>';
+
+        $('#results').append(out);
+    });
+
+    if (total_n > max_n){
+
+        $('#results').append(
+        '<div class="pure-u-1"><p><b>' + total_n + '</b> results total, showing first ' + max_n + '.<br />' +
+        'Also matching ' + results_more + ' &mdash; <b>tweak your search terms</b> for details.</p></div>'
+        );
+    } else {
+        $('#results').append('<div class="pure-u-1"><p><b>' + total_n + '</b> result(s) total </p></div>');
+    }
+
+}
+
+
+</script>
+
+
 </body>
 
