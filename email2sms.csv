@@ -111,7 +111,7 @@ North America,Canada,,Aliant,number@sms.wirefree.informe.ca,,,,,,,,
 North America,Canada,,Bell Mobility & Solo Mobile,number@txt.bell.ca,,,,,,,,http://www.txt.bellmobility.ca/bmc/en/
 North America,Canada,,Bell Mobility & Solo Mobile,number@txt.bellmobility.ca,,,,,,,,
 North America,Canada,,Fido,number@sms.fido.ca,,,,,"As of June 2012, Roger's web server is faster",,,http://www.rogers.com/web/content/wireless-text/send_sms
-North America,Canada,,Freedom Mobile,,number@mms.freedommobile.ca,,N,,,,,
+North America,Canada,,Freedom Mobile,cellnumber@txt.freedommobile.ca,number@mms.freedommobile.ca,,N,,,,,
 North America,Canada,,Koodo Mobile,number@msg.telus.com,,,,,,,,http://koodomobile.com/en/on/sendamessage.shtml
 North America,Canada,,Lynx Mobility,number@sms.lynxmobility.com,,,,,,,,http://www.lynxmobility.com/login
 North America,Canada,,MTS Mobility,number@text.mtsmobility.com,,,,,,,,http://text.mtsmobility.com/
