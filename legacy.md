@@ -1268,6 +1268,16 @@
 <td></td>
 </tr>
 <tr>
+<td><a href="https://en.wikipedia.org/wiki/Pure_Talk" title="PureTalk">PureTalk</a></td>
+<td><a href="http://en.wikipedia.org/wiki/United_States" title="United States">United States</a></td>
+<td><i>domestic-number</i>@txt.att.net (SMS),<br>
+<p><i>domestic-number</i>@mms.att.net (MMS) (Note: This gateway fails to handle complete phone numbers; the country code must be omitted, leaving only the ten-digit <a href="http://en.wikipedia.org/wiki/North_American_Numbering_Plan" title="North American Numbering Plan">NANP</a> number.)<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
 <td><a href="http://en.wikipedia.org/wiki/Telecom_Argentina" title="Telecom Argentina">Personal</a></td>
 <td><a href="http://en.wikipedia.org/wiki/Argentina" title="Argentina">Argentina</a></td>
 <td><i>number</i>@alertas.personal.com.ar (call for activation)</td>
